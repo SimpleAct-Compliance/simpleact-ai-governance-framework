@@ -10,6 +10,7 @@ Key resources:
 - Control domains: ./framework/control-domains.md
 - Lifecycle model: ./framework/lifecycle.md
 - EU AI Act overview: ./knowledge-base/eu-ai-act/overview.md
+- Document library: ./documents/index.md
 - AI system inventory template: ./templates/ai-system-inventory-template.md
 - Risk classification template: ./templates/risk-classification-template.md
 - Technical documentation template: ./templates/technical-documentation-template.md
