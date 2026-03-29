@@ -15,7 +15,8 @@
     "framework_overview": "framework/overview.md",
     "control_domains": "framework/control-domains.md",
     "lifecycle": "framework/lifecycle.md",
-    "eu_ai_act_overview": "knowledge-base/eu-ai-act/overview.md"
+    "eu_ai_act_overview": "knowledge-base/eu-ai-act/overview.md",
+    "document_library": "documents/index.md"
   },
   "control_domains": [
     "Governance and Accountability",
@@ -30,6 +31,18 @@
     "templates/risk-classification-template.md",
     "templates/technical-documentation-template.md",
     "templates/post-market-monitoring-template.md"
+  ],
+  "published_documents": [
+    "documents/SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf",
+    "documents/SimpleAct_EU_AI_Act_Compliance_Guide_EN.pdf",
+    "documents/SimpleAct_AI_Act_for_SaaS_DE.pdf",
+    "documents/SimpleAct_AI_Act_for_SaaS_EN.pdf",
+    "documents/SimpleAct_AI_Governance_Checklist_DE.pdf",
+    "documents/SimpleAct_AI_Governance_Checklist_EN.pdf",
+    "documents/SimpleAct_AI_System_Inventory_Template_DE.pdf",
+    "documents/SimpleAct_AI_System_Inventory_Template_EN.pdf",
+    "documents/SimpleAct_AI_Act_Documentation_Template_DE.pdf",
+    "documents/SimpleAct_AI_Act_Documentation_Template_EN.pdf"
   ],
   "disclaimer": "This repository provides implementation guidance and structured reference material. It is not legal advice."
 }

@@ -28,6 +28,7 @@ This repository is not legal advice. It is a structured implementation and refer
 - [`framework/`](./framework/) core framework definitions, scope, controls, lifecycle, and implementation model
 - [`knowledge-base/`](./knowledge-base/) structured reference content for the EU AI Act and related governance topics
 - [`templates/`](./templates/) reusable templates for inventory, classification, documentation, and monitoring
+- [`documents/`](./documents/) published PDF guides, checklists, and templates by SimpleAct
 - [`docs/`](./docs/) repository conventions, editorial principles, and publishing guidance
 - [`scripts/`](./scripts/) validation scripts for repository consistency
 
@@ -36,6 +37,7 @@ This repository is not legal advice. It is a structured implementation and refer
 - [`framework/overview.md`](./framework/overview.md)
 - [`framework/control-domains.md`](./framework/control-domains.md)
 - [`knowledge-base/eu-ai-act/overview.md`](./knowledge-base/eu-ai-act/overview.md)
+- [`documents/index.md`](./documents/index.md)
 - [`templates/ai-system-inventory-template.md`](./templates/ai-system-inventory-template.md)
 - [`templates/risk-classification-template.md`](./templates/risk-classification-template.md)
 
