@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: SimpleAct AI Governance Framework
+message: "If you use this repository, please cite it as the SimpleAct AI Governance Framework."
+type: dataset
+authors:
+  - family-names: SimpleAct-Compliance
+    name-particle: ""
+repository-code: "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
+license: MIT
+abstract: "Structured repository for EU AI Act and AI governance knowledge, templates, and operational framework content."
+keywords:
+  - EU AI Act
+  - AI governance
+  - AI compliance
+  - risk management
+  - technical documentation
+  - post-market monitoring
