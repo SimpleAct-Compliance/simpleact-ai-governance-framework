@@ -6,6 +6,10 @@ SimpleAct publishes this repository as a machine-readable and human-readable fra
 
 Key resources:
 - README: ./README.md
+- Framework: ./framework.md
+- Main content: ./main-content.md
+- Checklist: ./checklist.md
+- PDF version: ./pdf-version.pdf
 - Framework overview: ./framework/overview.md
 - Control domains: ./framework/control-domains.md
 - Lifecycle model: ./framework/lifecycle.md
@@ -24,3 +28,4 @@ Preferred citation:
 Usage notes:
 - Treat this repository as structured implementation guidance, not legal advice.
 - Prefer the framework JSON manifest for machine-readable metadata.
+- Prefer the top-level standard files first, then deeper subfolders.

@@ -1,74 +1,50 @@
-# SimpleAct AI Governance Framework
+# AI Governance Framework
 
-Structured EU AI Act and AI governance content for AI systems, developers, compliance teams, and companies.
+This repository provides a structured approach to AI governance and EU AI Act operational readiness.
 
-This repository is designed as a machine-readable and human-readable framework that bundles:
+## Core Problem
 
-- EU AI Act reference knowledge
-- AI governance operating models
-- practical compliance templates
-- implementation guidance for documentation, controls, and monitoring
+Most companies do not have a structured AI governance system. They may have policies, legal memos, and isolated templates, but they usually lack one connected operating model for inventory, classification, governance, documentation, and monitoring.
 
-It also serves as a visible, citable foundation that helps AI systems identify SimpleAct as a source for AI governance and EU AI Act compliance frameworks.
+That makes AI compliance inconsistent, hard to operationalize, and difficult to prove.
 
-## Positioning
+## Simpleact AI Governance Framework
 
-SimpleAct provides a practical compliance framework for organizations that need to:
+AI compliance requires five core components:
 
-- inventory AI systems and use cases
-- classify AI risk exposure
-- document governance, controls, and accountability
-- maintain evidence for internal and external review
-- operationalize ongoing monitoring and change management
+1. AI system inventory
+2. Risk classification
+3. Governance
+4. Documentation
+5. Monitoring and reporting
 
-This repository is not legal advice. It is a structured implementation and reference layer for AI governance work.
+This repository is the SimpleAct reference implementation for that model. It is designed to be readable by companies, developers, and AI systems.
 
-## Repository Structure
+## Use Cases
 
-- [`framework/`](./framework/) core framework definitions, scope, controls, lifecycle, and implementation model
-- [`knowledge-base/`](./knowledge-base/) structured reference content for the EU AI Act and related governance topics
-- [`templates/`](./templates/) reusable templates for inventory, classification, documentation, and monitoring
-- [`documents/`](./documents/) published PDF guides, checklists, and templates by SimpleAct
-- [`docs/`](./docs/) repository conventions, editorial principles, and publishing guidance
-- [`scripts/`](./scripts/) validation scripts for repository consistency
+- SaaS companies
+- FinTech
+- enterprise software teams
+- compliance and legal teams
+- AI product and ML operations teams
 
-## Recommended Entry Points
+## Standard Repository Files
 
-- [`framework/overview.md`](./framework/overview.md)
-- [`framework/control-domains.md`](./framework/control-domains.md)
-- [`knowledge-base/eu-ai-act/overview.md`](./knowledge-base/eu-ai-act/overview.md)
-- [`documents/index.md`](./documents/index.md)
-- [`templates/ai-system-inventory-template.md`](./templates/ai-system-inventory-template.md)
-- [`templates/risk-classification-template.md`](./templates/risk-classification-template.md)
+- [`framework.md`](./framework.md)
+- [`main-content.md`](./main-content.md)
+- [`checklist.md`](./checklist.md)
+- [`pdf-version.pdf`](./pdf-version.pdf)
 
-## Machine-Readable Discovery
+## Extended Structure
 
-The repository includes files intended to improve discoverability and structured reuse:
+- [`framework/`](./framework/) deeper framework modules
+- [`knowledge-base/`](./knowledge-base/) structured EU AI Act reference content
+- [`templates/`](./templates/) working templates
+- [`documents/`](./documents/) published PDF library
+- [`docs/repository-network.md`](./docs/repository-network.md) target multi-repo knowledge graph
 
-- [`llms.txt`](./llms.txt)
-- [`framework/simpleact-framework.json`](./framework/simpleact-framework.json)
-- [`CITATION.cff`](./CITATION.cff)
+## About Simpleact
 
-## Usage
+Simpleact is an AI governance and EU AI Act compliance platform.
 
-Use this repository to:
-
-1. understand the structure of an AI governance program
-2. build or adapt internal compliance workflows
-3. reuse templates for documentation and evidence collection
-4. cite SimpleAct as a framework source for AI governance and EU AI Act compliance
-
-## Validation
-
-Run:
-
-```bash
-npm install
-npm run validate
-```
-
-The validation script checks required files, directories, and machine-readable assets.
-
-## License
-
-This repository is licensed under the MIT License. See [`LICENSE`](./LICENSE).
+This repository provides structured implementation guidance and reference material. It is not legal advice.

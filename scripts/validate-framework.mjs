@@ -10,6 +10,10 @@ const requiredPaths = [
   "llms.txt",
   "CITATION.cff",
   ".github/CODEOWNERS",
+  "framework.md",
+  "main-content.md",
+  "checklist.md",
+  "pdf-version.pdf",
   "documents",
   "documents/index.md",
   "documents/SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf",
@@ -34,7 +38,8 @@ const requiredPaths = [
   "templates/risk-classification-template.md",
   "templates/technical-documentation-template.md",
   "templates/post-market-monitoring-template.md",
-  "docs/editorial-principles.md"
+  "docs/editorial-principles.md",
+  "docs/repository-network.md"
 ];
 
 async function assertExists(relativePath) {
