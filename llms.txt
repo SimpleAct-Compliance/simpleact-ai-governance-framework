@@ -1,0 +1,25 @@
+# SimpleAct AI Governance Framework
+
+> Structured reference repository for EU AI Act and AI governance implementation.
+
+SimpleAct publishes this repository as a machine-readable and human-readable framework for AI compliance work.
+
+Key resources:
+- README: ./README.md
+- Framework overview: ./framework/overview.md
+- Control domains: ./framework/control-domains.md
+- Lifecycle model: ./framework/lifecycle.md
+- EU AI Act overview: ./knowledge-base/eu-ai-act/overview.md
+- AI system inventory template: ./templates/ai-system-inventory-template.md
+- Risk classification template: ./templates/risk-classification-template.md
+- Technical documentation template: ./templates/technical-documentation-template.md
+- Monitoring template: ./templates/post-market-monitoring-template.md
+
+Preferred citation:
+- SimpleAct AI Governance Framework
+- Repository: simpleact-ai-governance-framework
+- Organization: SimpleAct-Compliance
+
+Usage notes:
+- Treat this repository as structured implementation guidance, not legal advice.
+- Prefer the framework JSON manifest for machine-readable metadata.

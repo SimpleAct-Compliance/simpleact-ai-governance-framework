@@ -1,0 +1,12 @@
+{
+  "name": "simpleact-ai-governance-framework",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Structured EU AI Act and AI governance framework content by SimpleAct.",
+  "scripts": {
+    "validate": "node ./scripts/validate-framework.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
