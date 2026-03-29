@@ -30,6 +30,8 @@
     "control_domains": "framework/control-domains.md",
     "lifecycle": "framework/lifecycle.md",
     "eu_ai_act_overview": "knowledge-base/eu-ai-act/overview.md",
+    "eu_ai_act_definitions": "knowledge-base/eu-ai-act/definitions.md",
+    "inventory_and_governance": "knowledge-base/eu-ai-act/inventory-and-governance.md",
     "document_library": "documents/index.md"
   },
   "control_domains": [
@@ -45,6 +47,13 @@
     "templates/risk-classification-template.md",
     "templates/technical-documentation-template.md",
     "templates/post-market-monitoring-template.md"
+  ],
+  "knowledge_modules": [
+    "knowledge-base/eu-ai-act/overview.md",
+    "knowledge-base/eu-ai-act/scope-and-actors.md",
+    "knowledge-base/eu-ai-act/risk-logic.md",
+    "knowledge-base/eu-ai-act/definitions.md",
+    "knowledge-base/eu-ai-act/inventory-and-governance.md"
   ],
   "published_documents": [
     "documents/SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf",

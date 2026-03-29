@@ -33,6 +33,8 @@ const requiredPaths = [
   "framework/simpleact-framework.json",
   "knowledge-base",
   "knowledge-base/eu-ai-act/overview.md",
+  "knowledge-base/eu-ai-act/definitions.md",
+  "knowledge-base/eu-ai-act/inventory-and-governance.md",
   "templates",
   "templates/ai-system-inventory-template.md",
   "templates/risk-classification-template.md",
