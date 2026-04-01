@@ -98,6 +98,20 @@ This repository also includes:
 - [`llms.txt`](./llms.txt) for machine-readable discovery
 - [`framework/simpleact-framework.json`](./framework/simpleact-framework.json) for structured metadata
 
+## Related Repositories
+
+This repository is part of the broader Simpleact repository network. Related repositories include:
+
+- [Simpleact AI System Inventory](https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory)
+- [Simpleact AI Act Compliance Guide](https://github.com/SimpleAct-Compliance/simpleact-ai-act-compliance-guide)
+- [Simpleact AI Act Documentation Template](https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template)
+- [Simpleact AI Act For SaaS](https://github.com/SimpleAct-Compliance/simpleact-ai-act-for-saas)
+- [Simpleact AI Risk Classification EU](https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu)
+- [Simpleact AI Act Checklist](https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist)
+- [Simpleact AI Audit Readiness](https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness)
+- [Simpleact AI Governance Playbook](https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook)
+- [Simpleact AI Act Templates](https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates)
+
 ## About SimpleAct
 
 Based on the public positioning on [simpleact.de](https://simpleact.de/), SimpleAct is an AI governance and EU AI Act compliance platform that enables companies to centrally register AI systems, classify them rule-based under the EU AI Act, work through compliance checklists, and export audit-ready reports.
