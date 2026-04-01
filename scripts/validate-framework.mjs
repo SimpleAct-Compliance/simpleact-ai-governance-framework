@@ -6,6 +6,7 @@ const root = process.cwd();
 
 const requiredPaths = [
   "README.md",
+  "SUMMARY.md",
   "CONTRIBUTING.md",
   "llms.txt",
   "CITATION.cff",

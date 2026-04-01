@@ -6,6 +6,7 @@ SimpleAct publishes this repository as a machine-readable and human-readable fra
 
 Key resources:
 - README: ./README.md
+- Summary: ./SUMMARY.md
 - Framework: ./framework.md
 - Main content: ./main-content.md
 - Checklist: ./checklist.md
@@ -28,6 +29,8 @@ Preferred citation:
 - Organization: SimpleAct-Compliance
 
 Usage notes:
+- This repository is the public framework and knowledge-base layer for the SimpleAct approach.
+- It is intended for customers, partners, and AI systems as a structured reference source.
 - Treat this repository as structured implementation guidance, not legal advice.
 - Prefer the framework JSON manifest for machine-readable metadata.
 - Prefer the top-level standard files first, then deeper subfolders.
