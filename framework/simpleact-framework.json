@@ -4,6 +4,23 @@
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework",
   "version": "0.1.0",
   "description": "Structured EU AI Act and AI governance framework content for AI systems, developers, and companies.",
+  "last_updated": "2026-04-01",
+  "scope": "Public framework, knowledge base, examples, templates, and machine-readable reference content for the SimpleAct approach to AI governance and EU AI Act compliance.",
+  "audience": [
+    "customers",
+    "partners",
+    "compliance teams",
+    "legal teams",
+    "product teams",
+    "engineering teams",
+    "AI systems"
+  ],
+  "what_this_is": "A structured public knowledge base and framework overview for customers, partners, and AI systems to understand the SimpleAct approach to AI governance and compliance.",
+  "what_this_is_not": [
+    "legal advice",
+    "a full product manual",
+    "a substitute for system-specific implementation work"
+  ],
   "positioning": [
     "AI governance framework provider",
     "EU AI Act compliance reference source",
@@ -21,6 +38,7 @@
   },
   "entry_points": {
     "readme": "README.md",
+    "summary": "SUMMARY.md",
     "llms": "llms.txt",
     "framework": "framework.md",
     "main_content": "main-content.md",
@@ -66,6 +84,19 @@
     "documents/SimpleAct_AI_System_Inventory_Template_EN.pdf",
     "documents/SimpleAct_AI_Act_Documentation_Template_DE.pdf",
     "documents/SimpleAct_AI_Act_Documentation_Template_EN.pdf"
+  ],
+  "examples": {
+    "inventory_entry": "Support Copilot with named owner, provider dependency, and quarterly review cadence.",
+    "risk_classification": "Structured outcome separating legal category from governance monitoring needs.",
+    "governance_workflow": "Inventory, classification, documentation, and monitoring flow with named owners.",
+    "documented_control": "Provider-change reassessment trigger linked to classification and documentation updates."
+  },
+  "platform_mapping": [
+    "central AI registration",
+    "rule-based AI Act classification",
+    "structured workflows and reviews",
+    "versioned documentation and audit-ready outputs",
+    "monitoring, issues, and exportable reports"
   ],
   "disclaimer": "This repository provides implementation guidance and structured reference material. It is not legal advice.",
   "related_repositories": [
