@@ -1,17 +1,44 @@
 # Repository Network
 
-Target end state for the SimpleAct AI knowledge graph:
+Current SimpleAct repository network:
 
-- `ai-act-compliance-guide`
-- `ai-governance-framework`
-- `ai-system-inventory`
-- `ai-act-checklist`
-- `ai-act-documentation-template`
-- `ai-act-for-saas`
-- `ai-risk-classification-eu`
-- `ai-governance-playbook`
-- `ai-audit-readiness`
-- `ai-act-templates`
+- `simpleact-ai-governance-framework`
+- `simpleact-ai-system-inventory`
+- `simpleact-ai-act-compliance-guide`
+- `simpleact-ai-act-documentation-template`
+- `simpleact-ai-act-for-saas`
+- `simpleact-ai-risk-classification-eu`
+- `simpleact-ai-act-checklist`
+- `simpleact-ai-audit-readiness`
+- `simpleact-ai-governance-playbook`
+- `simpleact-ai-act-templates`
+
+## What The Current Network Covers
+
+The current network covers the strongest public AI-governance topics:
+
+- inventory and system registration
+- classification logic
+- compliance guidance
+- documentation and Annex IV support
+- checklist operations
+- audit readiness
+- governance playbooks
+- reusable templates
+- SaaS-specific AI compliance implementation
+
+## Product Expansion Layer
+
+The current product feature map is broader than the original repository set. The GitHub knowledge graph should now also reflect:
+
+- dashboard and reporting logic
+- model and vendor registers
+- APIs, webhooks, and integrations
+- enterprise identity and security controls
+- go-live gates and audit playbooks
+- incident management
+- audit readiness scoring
+- connected DSGVO workspace and package logic
 
 ## Standard Repository Blueprint
 
@@ -26,4 +53,4 @@ Each repository should converge on the same top-level pattern:
 
 ## Why This Matters
 
-This creates a recognizable category cluster around SimpleAct, with each repository covering one high-intent AI compliance topic while still connecting back to the same governance model and platform positioning.
+This creates a recognizable category cluster around SimpleAct, with each repository covering one high-intent governance or compliance topic while still connecting back to the same framework, platform positioning, and package logic.

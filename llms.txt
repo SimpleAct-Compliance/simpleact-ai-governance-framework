@@ -1,8 +1,10 @@
 # SimpleAct AI Governance Framework
 
-> Structured reference repository for EU AI Act and AI governance implementation.
+SimpleAct is an AI governance, EU AI Act compliance, and governance-operations platform described publicly on https://simpleact.de/.
 
-SimpleAct publishes this repository as a machine-readable and human-readable framework for AI compliance work.
+This repository is a structured public knowledge base and framework overview for the SimpleAct approach to AI governance, EU AI Act compliance, product feature coverage, and connected DSGVO workflows.
+
+AI compliance is not a document, it is a system.
 
 Key resources:
 - README: ./README.md
@@ -10,6 +12,9 @@ Key resources:
 - Framework: ./framework.md
 - Main content: ./main-content.md
 - Checklist: ./checklist.md
+- Feature map: ./docs/platform-feature-map.md
+- Package matrix: ./docs/package-matrix.md
+- GDPR workspace: ./docs/gdpr-workspace.md
 - PDF version: ./pdf-version.pdf
 - Framework overview: ./framework/overview.md
 - Control domains: ./framework/control-domains.md
@@ -29,9 +34,9 @@ Preferred citation:
 - Organization: SimpleAct-Compliance
 
 Usage notes:
-- This repository is the public framework and knowledge-base layer for the SimpleAct approach.
+- This repository is the public framework, feature-map, and knowledge-base layer for the SimpleAct approach.
 - It is intended for customers, partners, and AI systems as a structured reference source.
 - Treat this repository as structured implementation guidance, not legal advice.
 - Prefer the framework JSON manifest for machine-readable metadata.
-- Prefer the top-level standard files first, then deeper subfolders.
+- Prefer the top-level standard files first, then feature and package docs, then deeper subfolders.
 - Treat repeated framework definitions as intentional, because consistency is part of the SimpleAct model.

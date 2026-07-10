@@ -4,8 +4,8 @@
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework",
   "version": "0.1.0",
   "description": "Structured EU AI Act and AI governance framework content for AI systems, developers, and companies.",
-  "last_updated": "2026-04-01",
-  "scope": "Public framework, knowledge base, examples, templates, and machine-readable reference content for the SimpleAct approach to AI governance and EU AI Act compliance.",
+  "last_updated": "2026-07-10",
+  "scope": "Public framework, feature map, package logic, DSGVO workspace context, examples, templates, and machine-readable reference content for the SimpleAct approach to AI governance and EU AI Act compliance.",
   "audience": [
     "customers",
     "partners",
@@ -13,9 +13,10 @@
     "legal teams",
     "product teams",
     "engineering teams",
+    "privacy teams",
     "AI systems"
   ],
-  "what_this_is": "A structured public knowledge base and framework overview for customers, partners, and AI systems to understand the SimpleAct approach to AI governance and compliance.",
+  "what_this_is": "A structured public knowledge base, framework overview, and feature map for customers, partners, and AI systems to understand the SimpleAct approach to AI governance, EU AI Act compliance, and connected DSGVO workflows.",
   "what_this_is_not": [
     "legal advice",
     "a full product manual",
@@ -50,7 +51,10 @@
     "eu_ai_act_overview": "knowledge-base/eu-ai-act/overview.md",
     "eu_ai_act_definitions": "knowledge-base/eu-ai-act/definitions.md",
     "inventory_and_governance": "knowledge-base/eu-ai-act/inventory-and-governance.md",
-    "document_library": "documents/index.md"
+    "document_library": "documents/index.md",
+    "platform_feature_map": "docs/platform-feature-map.md",
+    "package_matrix": "docs/package-matrix.md",
+    "gdpr_workspace": "docs/gdpr-workspace.md"
   },
   "control_domains": [
     "Governance and Accountability",
@@ -71,7 +75,10 @@
     "knowledge-base/eu-ai-act/scope-and-actors.md",
     "knowledge-base/eu-ai-act/risk-logic.md",
     "knowledge-base/eu-ai-act/definitions.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md"
+    "knowledge-base/eu-ai-act/inventory-and-governance.md",
+    "docs/platform-feature-map.md",
+    "docs/package-matrix.md",
+    "docs/gdpr-workspace.md"
   ],
   "published_documents": [
     "documents/SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf",
@@ -86,17 +93,19 @@
     "documents/SimpleAct_AI_Act_Documentation_Template_EN.pdf"
   ],
   "examples": {
-    "inventory_entry": "Support Copilot with named owner, provider dependency, and quarterly review cadence.",
-    "risk_classification": "Structured outcome separating legal category from governance monitoring needs.",
-    "governance_workflow": "Inventory, classification, documentation, and monitoring flow with named owners.",
-    "documented_control": "Provider-change reassessment trigger linked to classification and documentation updates."
+    "inventory_entry": "Support Copilot with named owner, provider dependency, model register link, and quarterly review cadence.",
+    "risk_classification": "Structured outcome separating legal category, transparency relevance, governance note, and reassessment trigger.",
+    "governance_workflow": "Inventory, classification, evidence gate, review, and monitoring flow with named owners.",
+    "documented_control": "Provider-change reassessment trigger linked to classification, documentation, and review output updates.",
+    "privacy_link": "AI system connected to VVT and DSFA handling without duplicate maintenance."
   },
   "platform_mapping": [
-    "central AI registration",
-    "rule-based AI Act classification",
-    "structured workflows and reviews",
-    "versioned documentation and audit-ready outputs",
-    "monitoring, issues, and exportable reports"
+    "central AI registration and metadata linkage",
+    "rule-based AI Act classification and reassessment",
+    "structured workflows, reviews, gates, and escalation",
+    "versioned documentation, Annex IV support, and audit-ready outputs",
+    "monitoring, incidents, dashboards, scoring, and exportable reports",
+    "connected DSGVO registers, DSFA logic, incidents, and authority-ready packages"
   ],
   "disclaimer": "This repository provides implementation guidance and structured reference material. It is not legal advice.",
   "related_repositories": [
@@ -145,5 +154,37 @@
       "title": "Simpleact AI Act Templates",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates"
     }
-  ]
+  ],
+  "product_layers": {
+    "ai_core": [
+      "AI system inventory",
+      "Risk classification",
+      "Compliance checklists and evidence register",
+      "Technical documentation and Annex IV support",
+      "Dashboard and reporting"
+    ],
+    "advanced_ai_operations": [
+      "Model and vendor register",
+      "Integrations and APIs",
+      "Security and privacy controls",
+      "Advanced identity",
+      "Governance workflows",
+      "Go-live gate and audit playbook",
+      "Incident management",
+      "Audit readiness score"
+    ],
+    "gdpr_workspace": [
+      "Verarbeitungsverzeichnis",
+      "DSFA",
+      "Data breach workflow",
+      "Deletion log",
+      "Awareness evidence",
+      "DSR handling",
+      "AVV and processors",
+      "TOMs",
+      "Privacy notice support",
+      "Transfer tracking",
+      "Authority-response packages"
+    ]
+  }
 }
