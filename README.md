@@ -15,7 +15,7 @@ AI compliance is not a document, it is a system.
 
 ## Jetzt operativ umsetzen
 
-? **[AI Governance mit SimpleAct](https://simpleact.de/ai-governance)** — Setze diesen Framework direkt in einer audit-ready Plattform um: Workflows, Evidence-Gates, Freigaben, Rollenverwaltung und exportierbare Nachweise in einem System.
+**[AI Governance mit SimpleAct](https://simpleact.de/ai-governance)** â€” Setze diesen Framework direkt in einer audit-ready Plattform um: Workflows, Evidence-Gates, Freigaben, Rollenverwaltung und exportierbare Nachweise in einem System.
 
 ## What Is SimpleAct
 

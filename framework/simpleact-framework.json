@@ -111,47 +111,47 @@
   "related_repositories": [
     {
       "name": "simpleact-ai-system-inventory",
-      "title": "Simpleact AI System Inventory",
+      "title": "SimpleAct AI System Inventory",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory"
     },
     {
       "name": "simpleact-ai-act-compliance-guide",
-      "title": "Simpleact AI Act Compliance Guide",
+      "title": "SimpleAct AI Act Compliance Guide",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-compliance-guide"
     },
     {
       "name": "simpleact-ai-act-documentation-template",
-      "title": "Simpleact AI Act Documentation Template",
+      "title": "SimpleAct AI Act Documentation Template",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template"
     },
     {
       "name": "simpleact-ai-act-for-saas",
-      "title": "Simpleact AI Act For SaaS",
+      "title": "SimpleAct AI Act For SaaS",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-for-saas"
     },
     {
       "name": "simpleact-ai-risk-classification-eu",
-      "title": "Simpleact AI Risk Classification EU",
+      "title": "SimpleAct AI Risk Classification EU",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu"
     },
     {
       "name": "simpleact-ai-act-checklist",
-      "title": "Simpleact AI Act Checklist",
+      "title": "SimpleAct AI Act Checklist",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
     },
     {
       "name": "simpleact-ai-audit-readiness",
-      "title": "Simpleact AI Audit Readiness",
+      "title": "SimpleAct AI Audit Readiness",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
     },
     {
       "name": "simpleact-ai-governance-playbook",
-      "title": "Simpleact AI Governance Playbook",
+      "title": "SimpleAct AI Governance Playbook",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook"
     },
     {
       "name": "simpleact-ai-act-templates",
-      "title": "Simpleact AI Act Templates",
+      "title": "SimpleAct AI Act Templates",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates"
     }
   ],
