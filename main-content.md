@@ -20,7 +20,7 @@ In Prüfungen fällt selten auf, dass eine Richtlinie fehlt. Es fällt auf, dass
 
 **Überwachung und Meldung.** Beschriebene Auslöser und ein Meldeweg, beides zugewiesen. Typische Lücke: der Jahresturnus als einzige Maßnahme.
 
-Quer dazu liegt **Art. 4 KI-Kompetenz**, anwendbar seit 2.2.2025 und unabhängig von jeder Risikoklasse. Das ist kein sechster Bereich, sondern eine Voraussetzung in allen fünf: Eine Aufsicht, die nicht versteht, was sie prüft, ist keine Aufsicht.
+Quer dazu liegt **Art. 4 KI-Kompetenz**, anwendbar seit 2.2.2025 und unabhängig von jeder Risikoklasse. Seit dem 27.7.2026 gilt die vom Digital Omnibus neu gefasste, schwächere Version: **Maßnahmen zur Förderung** der KI-Kompetenz ergreifen, statt ein Niveau je Person sicherzustellen. Das ist kein sechster Bereich, sondern bleibt praktisch eine Voraussetzung in allen fünf: Eine Aufsicht, die nicht versteht, was sie prüft, ist keine Aufsicht.
 
 ## Der Lebenszyklus und seine fehlende Rückkopplung
 

@@ -48,7 +48,7 @@ Nach dem **Digital Omnibus** (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026
 - **Art. 50 Transparenz: seit 2.8.2026 anwendbar** — nicht verschoben
 - **Anhang III Hochrisiko: erst ab 2.12.2027** — um 16 Monate verschoben
 
-Und davor liegt eine Pflicht, die seit dem **2.2.2025** gilt und keine Risikoklasse voraussetzt: **Art. 4 KI-Kompetenz**. Wer KI einsetzt, muss die Leute, die sie bedienen, dafür befähigen — unabhängig davon, wie das System eingestuft ist. Vollständige Fristen in [overview.md](./knowledge-base/eu-ai-act/overview.md).
+Und davor liegt eine Pflicht, die seit dem **2.2.2025** gilt und keine Risikoklasse voraussetzt: **Art. 4 KI-Kompetenz**. Anbieter und Betreiber müssen **Maßnahmen ergreifen, um die KI-Kompetenz** der Leute zu fördern, die ihre Systeme bedienen — unabhängig davon, wie das System eingestuft ist. Der Digital Omnibus hat die Vorschrift zum 27.7.2026 neu gefasst und damit abgeschwächt: Ein bestimmtes Niveau je Person muss nicht mehr sichergestellt werden. Vollständige Fristen in [overview.md](./knowledge-base/eu-ai-act/overview.md).
 
 ## Inhalt
 

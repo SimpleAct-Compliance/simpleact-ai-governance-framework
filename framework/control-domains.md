@@ -58,7 +58,9 @@ Dazu: [Vorfallmanagement](https://github.com/SimpleAct-Compliance/simpleact-inci
 
 ## Was quer zu allem liegt
 
-**Art. 4 KI-Kompetenz.** Anwendbar seit 2.2.2025, unabhängig von der Risikoklasse. Wer ein System bedient oder beaufsichtigt, muss dafür befähigt sein. Das ist kein eigener Bereich, sondern eine Voraussetzung in allen fünf: Eine menschliche Aufsicht, die nicht versteht, was sie prüft, ist keine Aufsicht.
+**Art. 4 KI-Kompetenz.** Anwendbar seit 2.2.2025, unabhängig von der Risikoklasse. Verlangt sind **Maßnahmen zur Förderung** der KI-Kompetenz derjenigen, die ein System bedienen oder beaufsichtigen — seit der Neufassung durch den Digital Omnibus (27.7.2026) nicht mehr ein sichergestelltes Kompetenzniveau je Person.
+
+Rechtlich ist die Pflicht damit schwächer, praktisch bleibt sie die Voraussetzung in allen fünf Bereichen: Eine menschliche Aufsicht, die nicht versteht, was sie prüft, ist keine Aufsicht. Schulung und ihre Dokumentation sind weiterhin der Nachweis, der in einer Prüfung vorgelegt wird.
 
 Dazu: [KI-Kompetenz](https://github.com/SimpleAct-Compliance/elearning)
 

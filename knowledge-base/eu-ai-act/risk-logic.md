@@ -41,7 +41,9 @@ Im Inventar gehört deshalb festgehalten: **welches Modell, welche Version, welc
 
 ## Die Pflicht ohne Klasse
 
-**Art. 4 KI-Kompetenz**, anwendbar seit 2.2.2025. Sie hängt an keiner Klasse. Sie ist auch keine Formalie, sondern die Voraussetzung dafür, dass menschliche Aufsicht überhaupt funktioniert: Wer nicht weiß, wie ein Modell irrt, kann seine Ausgabe nicht beurteilen.
+**Art. 4 KI-Kompetenz**, anwendbar seit 2.2.2025, seit 27.7.2026 in der neuen Fassung: Verlangt sind **Maßnahmen zur Förderung** der KI-Kompetenz, nicht mehr ein sichergestelltes Niveau je Person. Die Pflicht hängt an keiner Klasse.
+
+Dass sie abgeschwächt wurde, macht sie praktisch nicht entbehrlich: Wer nicht weiß, wie ein Modell irrt, kann seine Ausgabe nicht beurteilen — und damit steht und fällt die menschliche Aufsicht nach Art. 14.
 
 ## Weiter
 
