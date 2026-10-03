@@ -1,64 +1,34 @@
-# Document Library
+# Dokumentenbibliothek
 
-This directory contains published SimpleAct PDF assets that complement the SimpleAct AI Governance Framework.
+Hier liegen die veröffentlichten PDF-Leitfäden von SimpleAct, jeweils auf Deutsch und Englisch. Sie sind zum Weitergeben gedacht — an die Geschäftsführung, an einen Fachbereich, an einen Kunden, der wissen will, worum es geht.
 
-AI compliance is not a document, it is a system. These PDFs exist to support that system with practical guides, checklists, and templates that companies can review, share, and use in implementation work.
+**Was sie sind:** in sich geschlossene Leitfäden mit eigenem Stand. **Was sie nicht sind:** eine PDF-Fassung dieses Repositories. Die Markdown-Dateien hier sind die gepflegte Fassung; sie werden häufiger aktualisiert als die PDFs.
 
-## How To Use This Library
+## Welches Dokument wofür
 
-- start with the compliance guides for orientation
-- use the checklist for operational review
-- use the templates for inventory and documentation work
-- use the SaaS guide for product-specific AI governance context
+| Dokument | Für wen | Wann |
+|---|---|---|
+| **EU AI Act Compliance Guide** ([DE](./SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf) · [EN](./SimpleAct_EU_AI_Act_Compliance_Guide_EN.pdf)) | Geschäftsführung, Fachbereiche | zur Orientierung, wenn noch nichts begonnen hat |
+| **AI Governance Checklist** ([DE](./SimpleAct_AI_Governance_Checklist_DE.pdf) · [EN](./SimpleAct_AI_Governance_Checklist_EN.pdf)) | Compliance, Datenschutz | zur Selbstprüfung des erreichten Zustands |
+| **AI System Inventory Template** ([DE](./SimpleAct_AI_System_Inventory_Template_DE.pdf) · [EN](./SimpleAct_AI_System_Inventory_Template_EN.pdf)) | wer das Inventar aufbaut | als Feldgerüst für den ersten Durchlauf |
+| **AI Act Documentation Template** ([DE](./SimpleAct_AI_Act_Documentation_Template_DE.pdf) · [EN](./SimpleAct_AI_Act_Documentation_Template_EN.pdf)) | Anbieter von Hochrisikosystemen | für die technische Dokumentation nach Anhang IV |
+| **AI Act for SaaS** ([DE](./SimpleAct_AI_Act_for_SaaS_DE.pdf) · [EN](./SimpleAct_AI_Act_for_SaaS_EN.pdf)) | Softwareanbieter | wenn die Frage Anbieter oder Betreiber offen ist |
 
-See also:
+## Reihenfolge, wenn alles neu ist
 
-- [`README.md`](../README.md)
-- [`framework.md`](../framework.md)
-- [`checklist.md`](../checklist.md)
+1. **Compliance Guide** — um zu verstehen, was überhaupt gilt und wann
+2. **Inventory Template** — weil ohne Inventar jede weitere Bewertung lückenhaft bleibt
+3. **Governance Checklist** — um den erreichten Zustand zu prüfen, nicht die Absicht
+4. **Documentation Template** — erst wenn Hochrisiko feststeht und die eigene Rolle Anbieter ist
 
-## Documents
+Schritt 2 vor Schritt 3: Eine Prüfliste über einem unbekannten Bestand erzeugt Haken ohne Grundlage.
 
-### `SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf`
+## Stand
 
-German-language overview guide for organizations that need a structured introduction to EU AI Act compliance and the SimpleAct governance model.
+Die PDFs tragen ihren eigenen Stand. Weicht ein Datum von den Markdown-Dateien in diesem Repository ab, gilt die Markdown-Fassung — besonders bei Fristen, weil der Digital Omnibus (Verordnung (EU) 2026/1744) einige Daten verschoben hat und andere ausdrücklich nicht.
 
-### `SimpleAct_EU_AI_Act_Compliance_Guide_EN.pdf`
+Die maßgebliche Fristenübersicht steht in [knowledge-base/eu-ai-act/overview.md](../knowledge-base/eu-ai-act/overview.md).
 
-English-language overview guide for companies that need a practical, shareable introduction to EU AI Act compliance and the SimpleAct framework.
+## Weiter
 
-### `SimpleAct_AI_Act_for_SaaS_DE.pdf`
-
-German-language guide focused on how SaaS companies should interpret AI governance, product risk, and documentation duties under the EU AI Act.
-
-### `SimpleAct_AI_Act_for_SaaS_EN.pdf`
-
-English-language SaaS-focused guide for teams integrating AI features into software products and customer-facing workflows.
-
-### `SimpleAct_AI_Governance_Checklist_DE.pdf`
-
-German-language operational checklist for reviewing whether the core parts of an AI governance system are in place.
-
-### `SimpleAct_AI_Governance_Checklist_EN.pdf`
-
-English-language operational checklist for inventory, classification, governance, documentation, and monitoring review.
-
-### `SimpleAct_AI_System_Inventory_Template_DE.pdf`
-
-German-language template for capturing AI systems, owners, providers, purposes, and dependencies in a structured inventory.
-
-### `SimpleAct_AI_System_Inventory_Template_EN.pdf`
-
-English-language template for creating the AI system register that forms the foundation of the SimpleAct framework.
-
-### `SimpleAct_AI_Act_Documentation_Template_DE.pdf`
-
-German-language template for building evidence-ready AI compliance records and structured technical documentation.
-
-### `SimpleAct_AI_Act_Documentation_Template_EN.pdf`
-
-English-language template for documenting AI systems in a way that supports internal review, external scrutiny, and audit readiness.
-
-## Why This Matters
-
-Within the SimpleAct framework, guides explain the model, checklists operationalize the model, and templates standardize the evidence layer. This library brings those assets together in one place.
+[README](../README.md) · [Prüfliste](../checklist.md) · [Vorlagen im Repository](../templates/)

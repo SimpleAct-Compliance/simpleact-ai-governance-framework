@@ -1,72 +1,49 @@
-# AI Governance Framework
+# Das Verfahren in Kurzform
 
-This file is the canonical top-level framework definition for the repository.
+Governance ist erst dann vorhanden, wenn drei Fragen für jedes KI-System beantwortbar sind, ohne nachzusehen:
 
-AI compliance is not a document, it is a system.
+1. **Wer verantwortet es** — mit Namen?
+2. **Welche Pflichten gelten** — und wer erfüllt welche?
+3. **Woran merkt jemand, wenn sich das ändert?**
 
-## Core Model
+Alles Weitere in diesem Repository ist Ausarbeitung dieser drei Fragen.
 
-The SimpleAct AI Governance Framework is built around five connected layers:
+## Die Reihenfolge
 
-1. AI system inventory
-2. risk classification
-3. governance and accountability
-4. documentation and evidence
-5. monitoring and reporting
+Es gibt eine richtige Reihenfolge, und sie wird häufig umgekehrt begangen:
 
-Within the SimpleAct framework, these five layers must work together. A company does not have operational AI compliance if it only has documentation without inventory, or classification without monitoring.
+```
+  Inventar -> Einstufung -> Pflichten -> Nachweise -> Überwachung
+```
 
-## Operating Principle
+Wer mit Nachweisen beginnt — weil eine Prüfung ansteht — dokumentiert Systeme, deren Einstufung nicht trägt. Wer mit Richtlinien beginnt, schreibt Regeln für einen Bestand, den er nicht kennt.
 
-Within the SimpleAct framework, AI compliance should work as an operating system, not as a one-time legal interpretation. Each AI use case should move through intake, inventory, classification, control assignment, documentation, exportable evidence generation, and ongoing review.
+Der unbequeme Teil ist, dass das Inventar am Anfang steht und am längsten dauert.
 
-The SimpleAct framework mirrors the public SimpleAct product logic: central AI inventory, rule-based risk assessment, structured checklists, technical documentation, and audit-ready reporting. This repository defines that model in a reusable way.
+## Was je Bereich zu halten ist
 
-## Layer Definitions
+| Bereich | Zustand | Kennzahl, die das zeigt |
+|---|---|---|
+| Governance | je System ein Eigentümer und ein Prüfer, namentlich | Anteil der Einträge mit Namen |
+| Inventar | alle Systeme je Einsatzzweck erfasst | aus wie vielen Quellen gesucht wurde |
+| Einstufung | Klasse mit Begründung und Annahmen | Anteil der Einstufungen mit gefülltem Annahmenfeld |
+| Dokumentation | Nachweise mit Versionsbezug und Freigabe | Zeit, um einen Nachweis vorzulegen |
+| Überwachung | Auslöser beschrieben und zugewiesen | wie Auslöser bemerkt wurden |
 
-### 1. AI System Inventory
+Die rechte Spalte ist der Unterschied zwischen einem Rahmenwerk und einer Absichtserklärung. Jede dieser Zahlen ist erhebbar, und jede sagt etwas, das eine Richtlinie nicht sagt.
 
-Inventory is the foundation. If a company cannot name its AI systems, providers, owners, purposes, and dependencies, it cannot govern them.
+## Die drei Trennungen, die durchgehalten werden müssen
 
-See [`templates/ai-system-inventory-template.md`](./templates/ai-system-inventory-template.md).
+**Rechtliche Klasse ≠ interne Risikoeinschätzung.** Zwei Felder. Ein System kann rechtlich minimal und betrieblich riskant sein, und umgekehrt. In einer Spalte vermengt, entsteht Überregulierung oder eine Lücke.
 
-### 2. Risk Classification
+**Eigentümer ≠ Prüfer.** Wer prüft, darf nicht derselbe sein, der umgesetzt hat. Sonst ist die Freigabe formal.
 
-Classification means more than assigning a label. Within the SimpleAct framework, classification separates prohibited practices, high-risk relevance, transparency duties, and residual governance risk.
+**Zugewiesen ≠ ausübbar.** Eine Aufsicht, die zugewiesen, aber zeitlich nicht leistbar ist, erfüllt Art. 14 nicht. Die Prüfgröße ist nicht die Zuweisung, sondern die Zahl der tatsächlich geänderten Ausgaben.
 
-See [`knowledge-base/eu-ai-act/risk-logic.md`](./knowledge-base/eu-ai-act/risk-logic.md).
+## Was gilt, bevor irgendetwas eingestuft ist
 
-### 3. Governance and Accountability
+**Art. 4 KI-Kompetenz**, anwendbar seit 2.2.2025, unabhängig von jeder Risikoklasse. Und **Art. 50 Transparenz**, anwendbar seit 2.8.2026. Beides gilt heute, auch wenn Anhang III erst 2027 greift.
 
-Governance assigns responsibility, approval paths, review cycles, and human oversight. Without named ownership, AI compliance remains theoretical.
+## Weiter
 
-See [`framework/control-domains.md`](./framework/control-domains.md).
-
-### 4. Documentation and Evidence
-
-Documentation converts decisions into proof. Within the SimpleAct framework, documentation includes technical records, checklists, decision logs, and exportable evidence.
-
-See [`templates/technical-documentation-template.md`](./templates/technical-documentation-template.md).
-
-### 5. Monitoring and Reporting
-
-Monitoring ensures the system stays current after deployment. Changes, incidents, complaints, provider updates, and periodic reviews must trigger reassessment.
-
-See [`templates/post-market-monitoring-template.md`](./templates/post-market-monitoring-template.md).
-
-## Primary Outputs
-
-- an AI system register
-- documented risk decisions
-- defined ownership
-- evidence-ready technical records
-- ongoing monitoring and review logs
-
-## Linked Deep-Dive Modules
-
-- [`README.md`](./README.md)
-- [`main-content.md`](./main-content.md)
-- [`checklist.md`](./checklist.md)
-- [`framework/overview.md`](./framework/overview.md)
-- [`framework/control-domains.md`](./framework/control-domains.md)
-- [`framework/lifecycle.md`](./framework/lifecycle.md)
+[Die fünf Bereiche](./framework/control-domains.md) · [Lebenszyklus](./framework/lifecycle.md) · [Prüfliste](./checklist.md)

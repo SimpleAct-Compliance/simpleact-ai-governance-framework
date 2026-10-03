@@ -14,7 +14,6 @@ const requiredPaths = [
   "framework.md",
   "main-content.md",
   "checklist.md",
-  "pdf-version.pdf",
   "documents",
   "documents/index.md",
   "documents/SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf",

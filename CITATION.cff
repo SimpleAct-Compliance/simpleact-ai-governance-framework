@@ -1,17 +1,20 @@
 cff-version: 1.2.0
-title: SimpleAct AI Governance Framework
-message: "If you use this repository, please cite it as the SimpleAct AI Governance Framework."
+title: KI-Governance-Rahmenwerk
+message: "If you use this repository, please cite it as part of the SimpleAct AI Governance Framework."
 type: dataset
 authors:
   - family-names: SimpleAct-Compliance
-    name-particle: ""
 repository-code: "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
 license: MIT
-abstract: "Structured repository for EU AI Act and AI governance knowledge, templates, and operational framework content."
+abstract: "An operating model for AI governance under Regulation (EU) 2024/1689 and the GDPR, organised around five control domains (governance, inventory, classification, documentation, monitoring), a five-phase lifecycle and the feedback path from monitoring back into assessment that most implementations lack. Covers the Art. 25 role switch from deployer to provider, the four properties that make a record usable as evidence, the six triggers that invalidate an assessment, and the application dates as amended by the Digital Omnibus."
 keywords:
   - EU AI Act
+  - GDPR
   - AI governance
-  - AI compliance
-  - risk management
-  - technical documentation
-  - post-market monitoring
+  - operating model
+  - accountability
+  - Article 4
+  - Article 14
+  - Article 25
+  - Digital Omnibus
+  - SimpleAct

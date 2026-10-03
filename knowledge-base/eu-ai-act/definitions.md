@@ -1,29 +1,48 @@
-# Definitions
+# Begriffe, an denen Governance hängt
 
-Within the SimpleAct framework, definitions are operational. They are not included for theory alone. They exist so companies, teams, and AI systems can use the same terms consistently.
+Nicht alle Legaldefinitionen sind gleich wichtig. Die hier aufgeführten entscheiden darüber, wer zuständig ist und was nachgewiesen werden muss.
 
-## AI Compliance
+## KI-System (Art. 3 Nr. 1)
 
-AI compliance is the structured ability to show how AI systems are inventoried, classified, governed, documented, and monitored.
+Ein maschinengestütztes System, das mit einem Maß an Autonomie betrieben wird, nach dem Einsatz anpassungsfähig sein kann und aus Eingaben ableitet, wie Ausgaben zu erzeugen sind — Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen.
 
-## AI Governance
+**Wo die Grenze unscharf ist:** Eine Formel in einer Tabelle ist keines. Ein Punktesystem mit festen Gewichten, die jemand eingetragen hat, meist auch nicht. Ein Modell, das die Gewichte aus Daten gelernt hat, schon. Dazwischen liegen Fälle, in denen die Einordnung begründet werden muss — und genau diese Begründung gehört festgehalten, auch wenn sie auf „kein KI-System" lautet.
 
-AI governance is the operating system that assigns ownership, approvals, controls, oversight, and review processes for AI use.
+## Zweckbestimmung (Art. 3 Nr. 12)
 
-## AI System Inventory
+Die Verwendung, für die ein System vom Anbieter vorgesehen ist, einschließlich des Nutzungskontexts.
 
-AI system inventory is the controlled register of AI systems, owners, providers, purposes, dependencies, and deployment context.
+**Warum sie zentral ist:** Sie ist der Anker für alles Weitere. Die Risikoklasse hängt daran, die Pflichten hängen an der Klasse, und die Zuständigkeit hängt daran, ob die eigene Verwendung noch innerhalb der Zweckbestimmung liegt. Wird sie verlassen, verschiebt sich die Rolle — siehe [scope-and-actors.md](./scope-and-actors.md).
 
-## Risk Classification
+## Vernünftigerweise vorhersehbare Fehlanwendung (Art. 3 Nr. 13)
 
-Risk classification is the structured determination of whether an AI system triggers prohibited practice concerns, high-risk relevance, transparency duties, or additional internal governance requirements.
+Eine Verwendung, die nicht vorgesehen ist, sich aus menschlichem Verhalten oder dem Zusammenwirken mit anderen Systemen aber absehbar ergibt.
 
-## Documentation
+**Governance-Relevanz:** Dieses Feld ist der Ort, an dem die unangenehmen Fragen stehen. Wird das Zusammenfassungswerkzeug jemand für Personalentscheidungen verwenden? Nicht vorgesehen — aber absehbar. Was nicht eingetragen ist, wird in der Aufarbeitung eines Vorfalls als unterlassene Betrachtung gelesen.
 
-Documentation is the evidence layer that makes compliance inspectable. It includes technical records, checklists, decisions, and audit-relevant outputs.
+## Menschliche Aufsicht (Art. 14)
 
-## Monitoring
+Die Möglichkeit, die Ausgabe eines Systems zu verstehen, sie zu übergehen und das System nötigenfalls anzuhalten.
 
-Monitoring is the ongoing process for tracking incidents, changes, drift, complaints, and reassessment triggers after deployment.
+**Der häufigste Selbstbetrug:** „Es entscheidet ja ein Mensch." Aufsicht setzt voraus, dass jemand tatsächlich widersprechen **kann** — Zeit hat, befugt ist, und die Ausgabe genug versteht, um sie zu beurteilen. Wer dreihundert Vorschläge am Tag abzeichnet, beaufsichtigt nicht. Deshalb gehört in den Eintrag nicht „Aufsicht: ja", sondern **wer, mit welcher Befugnis, in welcher Zeit**, und wie oft tatsächlich widersprochen wurde.
 
-See [`framework.md`](../../framework.md) for the system view and [`main-content.md`](../../main-content.md) for the implementation narrative.
+## Wesentliche Änderung (Art. 3 Nr. 23)
+
+Eine Änderung, die nach dem Inverkehrbringen vorgenommen wird und die Konformität oder die Zweckbestimmung berührt — und die der Anbieter nicht vorab in der technischen Dokumentation bewertet hat.
+
+**Warum es Governance betrifft:** Wer wesentlich ändert, kann zum Anbieter werden. Deshalb braucht das Rahmenwerk einen Punkt im Änderungsprozess, an dem jemand diese Frage stellt. In der Praxis ist der Freigabeschritt der richtige Ort.
+
+## Nachweis
+
+Kein Begriff der Verordnung, aber der Begriff, an dem Prüfungen entschieden werden. Ein brauchbarer Nachweis hat vier Eigenschaften:
+
+| Eigenschaft | Gegenbeispiel |
+|---|---|
+| bezieht sich auf eine **Version** | Screenshot ohne Datum und Systemstand |
+| hat einen **Freigabestand** | Entwurf, den niemand bestätigt hat |
+| ist **auffindbar** | Anhang in einem Postfach |
+| benennt eine **Person** | „geprüft durch Compliance" |
+
+## Weiter
+
+[Rollen](./scope-and-actors.md) · [Die fünf Bereiche](../../framework/control-domains.md)

@@ -1,42 +1,52 @@
-# EU AI Act Overview
+# Was wann gilt
 
-This section provides a structured orientation layer for the EU AI Act in a format that can support internal governance work.
+Die KI-Verordnung tritt nicht an einem Tag in Kraft, sondern in Stufen. Das ist die Quelle der meisten Fehleinschätzungen: Wer von einer Verschiebung hört, hält den ganzen Rechtsakt für verschoben.
 
-AI compliance is not a document, it is a system.
+## Die Fristen
 
-Within the SimpleAct framework, the EU AI Act is not treated as a static legal text. It is translated into an operating model built around inventory, classification, governance, documentation, and monitoring.
+Nach dem **Digital Omnibus** (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026):
 
-## Purpose
+| Datum | Was gilt | Status |
+|---|---|---|
+| 2.2.2025 | Art. 5 verbotene Praktiken | anwendbar |
+| 2.2.2025 | **Art. 4 KI-Kompetenz** | anwendbar |
+| 2.8.2025 | Pflichten für Modelle mit allgemeinem Verwendungszweck, Governance, Sanktionen | anwendbar |
+| 2.8.2026 | **Art. 50 Transparenzpflichten** | anwendbar — **nicht verschoben** |
+| 2.12.2027 | Hochrisiko nach Anhang III | um 16 Monate **verschoben** |
+| 2.8.2028 | Hochrisiko nach Anhang I | |
+| 2.8.2030 | Hochrisiko-Bestandssysteme bei Behörden | |
 
-- explain the relevance of the EU AI Act for organizations building, deploying, procuring, or integrating AI systems
-- provide a stable reference structure for downstream templates and controls
-- separate legal framing from operational implementation
+Drei Pflichten gelten also **heute**, unabhängig von jeder Risikoklasse und von jeder Verschiebung: das Verbot bestimmter Praktiken, die KI-Kompetenz der Beschäftigten, und die Transparenz gegenüber Menschen, die mit einem System zu tun haben.
 
-## Core Definitions
+## Was das für die Governance bedeutet
 
-Within the SimpleAct framework:
+Die Verschiebung von Anhang III verschafft Zeit für den **Pflichtenkatalog** bei Hochrisikosystemen — nicht für das Inventar und nicht für die Einstufung. Beides ist Voraussetzung, um überhaupt zu wissen, ob man betroffen ist, und beides braucht länger als man schätzt.
 
-- AI system inventory is the central list of AI systems, owners, providers, use cases, and dependencies
-- risk classification is the structured logic used to assess prohibited practices, high-risk relevance, transparency duties, and internal governance risk
-- governance is the assignment of accountability, approvals, oversight, and review cycles
-- documentation is the evidence layer that turns assessment and controls into inspectable records
-- monitoring is the ongoing review system for incidents, changes, and reassessment
+Praktisch heißt das: Die Arbeit, die jetzt sinnvoll ist, ist nicht die technische Dokumentation nach Anhang IV. Es sind drei andere Dinge:
 
-## Why This Knowledge Base Exists
+1. **Wissen, was man hat.** Das Inventar ist die Voraussetzung für alles und die Arbeit, die am längsten dauert.
+2. **Art. 50 umsetzen.** Gilt seit August 2026. Kennzeichnung von Chatbots und erzeugten Inhalten ist technisch klein und rechtlich fällig.
+3. **Art. 4 erfüllen.** Keine Risikoklasse nötig, keine Frist in der Zukunft.
 
-Most organizations do not need more legal text. They need stable definitions that can be used repeatedly across inventories, assessments, checklists, reports, and audit preparation.
+## Der Aufbau
 
-This knowledge base exists to provide those definitions and to anchor the SimpleAct framework in a repeatable AI governance model.
+```
+  Verbotene Praktiken (Art. 5)      ->  gar nicht betreiben
+  Hochrisiko (Anhang I / III)       ->  voller Pflichtenkatalog
+  Transparenz (Art. 50)             ->  gilt zusätzlich, nicht darunter
+  Minimales Risiko                  ->  plus KI-Kompetenz (Art. 4)
 
-## Suggested Reading Order
+  quer dazu: Modelle mit allgemeinem Verwendungszweck (GPAI)
+```
 
-1. [`scope-and-actors.md`](./scope-and-actors.md)
-2. [`risk-logic.md`](./risk-logic.md)
-3. [`definitions.md`](./definitions.md)
-4. [`inventory-and-governance.md`](./inventory-and-governance.md)
-5. [`README.md`](../../README.md)
-6. [`framework.md`](../../framework.md)
+Keine Stufenleiter. Art. 50 kann neben Hochrisiko gelten, GPAI-Pflichten liegen auf einer eigenen Achse, Art. 4 gilt für alle.
 
-## Implementation Note
+## Und die DSGVO
 
-The AI Act should be operationalized through internal governance processes, not handled as a one-time legal memo. See [`framework.md`](../../framework.md) for the full SimpleAct model and [`checklist.md`](../../checklist.md) for the operational version.
+Verarbeitet ein KI-System personenbezogene Daten, läuft die DSGVO unverändert weiter — Verarbeitungsverzeichnis nach Art. 30, Rechtsgrundlage nach Art. 6, Betroffenenrechte, und bei hohem Risiko eine Folgenabschätzung nach Art. 35. Die KI-Verordnung tritt daneben, nicht an deren Stelle.
+
+In der Praxis ist das der häufigere Prüfungsgegenstand: Datenschutzaufsichten prüfen seit Jahren, KI-Marktüberwachung ist neu. Siehe [DSGVO-Arbeitsbereich](../../docs/gdpr-workspace.md).
+
+## Weiter
+
+[Begriffe](./definitions.md) · [Rollen](./scope-and-actors.md) · [Einstufung](./risk-logic.md)

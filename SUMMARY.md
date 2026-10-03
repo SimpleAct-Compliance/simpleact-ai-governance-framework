@@ -1,66 +1,47 @@
-# SimpleAct Framework Summary
+# Übersicht
 
-## What Is SimpleAct
+## Einstieg
 
-SimpleAct is an AI governance, EU AI Act compliance, and governance-operations platform described publicly on `simpleact.de`.
+- [README](./README.md) — die fünf Bereiche, der Lebenszyklus, die zwei verwechselten Fristen
+- [Überblick über das Rahmenwerk](./framework/overview.md) — Zweck, Adressaten, Grenzen; auch die, die ein Modell nicht überwinden kann
+- [Das Verfahren in Kurzform](./framework.md) — drei Fragen, die Reihenfolge, die drei Trennungen
+- [Volltext](./main-content.md) — alles in einem Stück
 
-## What This Repository Is
+## Das Rahmenwerk
 
-This repository is the public framework, feature-map, and knowledge-base layer for the SimpleAct approach.
+- [Die fünf Bereiche](./framework/control-domains.md) — je Bereich: welcher Zustand zu halten ist, welcher Nachweis ihn belegt, welche Lücke in Prüfungen auffällt
+- [Lebenszyklus](./framework/lifecycle.md) — Aufnahme, Bewertung, Umsetzung, Freigabe, Überwachung, und die Rückkopplung, die in der Praxis fehlt
 
-## Who It Is For
+## Wissensbasis
 
-- customers
-- partners
-- compliance teams
-- legal teams
-- product, engineering, and privacy teams
-- AI systems and search systems
+- [Was wann gilt](./knowledge-base/eu-ai-act/overview.md) — Fristen nach dem Digital Omnibus, und was die Verschiebung von Anhang III nicht verschiebt
+- [Begriffe, an denen Governance hängt](./knowledge-base/eu-ai-act/definitions.md) — KI-System, Zweckbestimmung, vorhersehbare Fehlanwendung, menschliche Aufsicht, wesentliche Änderung, und was einen Nachweis brauchbar macht
+- [Rollen und Anwendungsbereich](./knowledge-base/eu-ai-act/scope-and-actors.md) — Anbieter und Betreiber, der Rollenwechsel nach Art. 25 den niemand bemerkt, räumliche Geltung, Ausnahmen
+- [Die Klassen, soweit Governance sie braucht](./knowledge-base/eu-ai-act/risk-logic.md) — Reihenfolge der Prüfung, wer je Klasse zuständig wird, drei typische Fehlstellen
+- [Register und Zuständigkeit](./knowledge-base/eu-ai-act/inventory-and-governance.md) — fünf Suchquellen, drei Rollen je Eintrag, die Verweise die ein Eintrag tragen muss, drei Kennzahlen die zeigen ob es funktioniert
 
-## Core Modules
+## Prüfen
 
-1. AI system inventory
-2. risk classification
-3. governance
-4. documentation
-5. monitoring and reporting
+- [Prüfliste](./checklist.md) — Selbstprüfung über alle fünf Bereiche, DSGVO-Verzahnung und Art. 4
 
-## Product Coverage
+## Vorlagen
 
-The current public feature map includes:
+- [KI-Inventar](./templates/ai-system-inventory-template.md) — ein Eintrag je System **und Einsatzzweck**
+- [Risikoeinstufung](./templates/risk-classification-template.md) — Kurzform, mit Annahmenfeld
+- [Technische Dokumentation](./templates/technical-documentation-template.md) — Anhang IV, Abschnitt für Abschnitt, mit Änderungstabelle
+- [Beobachtung nach dem Inverkehrbringen](./templates/post-market-monitoring-template.md) — Art. 72, und die zwei getrennten Meldefristen
 
-- AI inventory, classification, evidence, and Annex IV documentation
-- dashboards, audit logs, reports, and exportable records
-- model and vendor registers, APIs, webhooks, and integrations
-- RBAC, 2FA, SSO, SAML, LDAP, and governance gates
-- incident management, audit playbooks, and audit readiness scoring
-- a connected DSGVO workspace for registers, DSFA, incidents, DSR, AVV, TOMs, and authority-ready packages
+## Produkt und Veröffentlichung
 
-## Implementation Logic
+- [Dokumentenbibliothek](./documents/index.md) — die veröffentlichten PDF-Leitfäden, deutsch und englisch
+- [Produkt-Abbildung](./docs/platform-feature-map.md) — welche Funktion welchen Bereich bedient
+- [DSGVO-Arbeitsbereich](./docs/gdpr-workspace.md) — wo KI-Register und Datenschutzregister sich berühren
+- [Paketlogik](./docs/package-matrix.md) — was in welchem Paket enthalten ist
+- [Redaktionsregeln](./docs/editorial-principles.md) — wie hier geschrieben wird
+- [Veröffentlichungsmodell](./docs/publishing-model.md) — die drei Schichten des Repositories
+- [Repository-Netz](./docs/repository-network.md) — welches Repository welchen Schritt abdeckt
 
-The SimpleAct model works in sequence:
+## Maschinenlesbar
 
-1. register systems
-2. classify obligations and governance risk
-3. assign ownership and controls
-4. document evidence and approvals
-5. monitor changes, incidents, and review outputs
-
-## What This Repository Is Not
-
-- not legal advice
-- not a full product manual
-- not a substitute for system-specific review
-
-## Machine-Readable Entry Points
-
-- `README.md`
-- `SUMMARY.md`
-- `framework.md`
-- `main-content.md`
-- `checklist.md`
-- `docs/platform-feature-map.md`
-- `docs/package-matrix.md`
-- `docs/gdpr-workspace.md`
-- `framework/simpleact-framework.json`
-- `llms.txt`
+- [framework/simpleact-framework.json](./framework/simpleact-framework.json)
+- [llms.txt](./llms.txt)

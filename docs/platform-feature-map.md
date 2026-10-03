@@ -1,40 +1,54 @@
-# Platform Feature Map
+# Produkt-Abbildung
 
-This document maps the current SimpleAct product feature set into the public framework language used across the repository network.
+Welche Funktion von SimpleAct welchen Teil des Rahmenwerks bedient. Gedacht für die Frage „wo im Produkt mache ich das" — und für die umgekehrte, „welcher Pflicht dient diese Funktion".
 
-## AI Governance And EU AI Act Core
+## KI-Governance und AI-Act-Kern
 
-- `AI system inventory`: central AI register with owner, purpose, business process, lifecycle, provider, model, hosting, and related metadata
-- `Risk classification`: guided questionnaires, rule-based classification support, documented outcomes, and reassessment logic
-- `Compliance checklists and evidence`: risk-based checklists, evidence register, workflow states, and accountable review roles
-- `Technical documentation`: Annex IV support, template-driven documentation, linked evidence, and approval workflows
-- `Dashboards and reporting`: dashboards, exportable reports, inventory export, audit logs, and management summaries
+| Funktion | Was sie leistet | Bereich |
+|---|---|---|
+| **KI-Inventar** | zentrales Register mit Eigentümer, Zweck, Geschäftsprozess, Lebenszyklus, Anbieter, Modell, Hosting | Inventar |
+| **Risikoeinstufung** | geführte Fragebögen, regelbasierte Unterstützung, dokumentiertes Ergebnis, Logik für die Neubewertung | Einstufung |
+| **Prüflisten und Nachweise** | risikobezogene Prüflisten, Nachweisregister, Arbeitszustände, zuständige Prüfrollen | Dokumentation |
+| **Technische Dokumentation** | Anhang-IV-Unterstützung, vorlagengestützt, verknüpfte Nachweise, Freigabeläufe | Dokumentation |
+| **Dashboards und Berichte** | Auswertungen, exportierbare Berichte, Inventarexport, Prüfprotokoll, Zusammenfassungen | alle |
 
-## Advanced AI Operations
+## Erweiterter KI-Betrieb
 
-- `Model and vendor register`: model versions, provider linkage, vendor overview, contracting context, AVV/SCC references, and procurement support
-- `Integrations and APIs`: APIs, webhooks, Jira, ServiceNow, Teams, and OpenAPI-oriented integration surfaces
-- `Security and privacy controls`: EU infrastructure, TLS, RBAC, 2FA, backup visibility, and DPA support
-- `Advanced identity`: SSO, SAML, and LDAP for enterprise identity management
-- `Governance workflows`: role-based access, accountable assignments, governance gates, delegations, and recurring reviews
-- `Go-live gate and audit playbook`: go-live checks, gap analysis, audit tasks, remediation tracking, and management dashboards
-- `Incident management`: incident register, status workflow, reassessment triggers, policy linkage, and audit traceability
-- `Audit readiness score`: automatic readiness scoring based on inventory, risk, documentation, controls, governance, and completeness signals
+| Funktion | Was sie leistet | Bereich |
+|---|---|---|
+| **Modell- und Anbieterregister** | Modellversionen, Anbieterbezug, Vertragskontext, AVV- und SCC-Verweise | Inventar |
+| **Integrationen und Schnittstellen** | APIs, Webhooks, Jira, ServiceNow, Teams, OpenAPI-nahe Anbindung | Inventar, Überwachung |
+| **Sicherheits- und Datenschutzkontrollen** | EU-Infrastruktur, TLS, Rollenrechte, Zwei-Faktor-Anmeldung, Sichtbarkeit der Sicherungen | Governance |
+| **Erweiterte Identität** | SSO, SAML, LDAP | Governance |
+| **Governance-Abläufe** | rollenbasierte Rechte, zuständige Zuweisungen, Freigabetore, Delegationen, wiederkehrende Durchsichten | Governance |
+| **Go-live-Tor und Audit-Playbook** | Freigabeprüfungen, Lückenanalyse, Audit-Aufgaben, Maßnahmenverfolgung | Dokumentation, Überwachung |
+| **Vorfallmanagement** | Vorfallregister, Statusfolge, Auslöser für Neubewertung, Richtlinienbezug, Nachvollziehbarkeit | Überwachung |
+| **Audit-Reifegrad** | Bewertung aus Inventar, Risiko, Dokumentation, Kontrollen, Governance und Vollständigkeit | alle |
 
-## Connected DSGVO Workspace
+Zum **Audit-Reifegrad** eine Einschränkung, die dazugehört: Eine Zahl, die aus Vollständigkeitssignalen berechnet wird, misst die Vollständigkeit der Erfassung — nicht die Richtigkeit der Einstufungen. Sie ist ein Fortschrittsmaß, kein Prüfungsergebnis.
 
-- `Verarbeitungsverzeichnis`: AI-linked processing register and Art. 30 structure
-- `DSFA`: guided DPIA logic, AI linkage, and escalation support
-- `Data breach workflow`: deadline support, workflow states, and escalation for incidents
-- `Deletion log`: manual evidence and retention reminders
-- `Awareness and training`: participation logs and training evidence
-- `DSR handling`: request inbox, SLA support, verification, and answer package support
-- `AVV and processors`: processor overview, AVV status, SCC hints, and vendor linkage
-- `TOMs`: measure register and control mapping
-- `Privacy notice generation`: data-backed content assembly from internal records
-- `Transfer tracking`: SCC, BCR, adequacy, TIA status, and linked third-country register context
-- `Authority packages`: case management, deadlines, and exportable authority-ready ZIP packages
+## Verbundener DSGVO-Arbeitsbereich
 
-## Why This Matters
+| Funktion | Was sie leistet |
+|---|---|
+| **Verarbeitungsverzeichnis** | Art.-30-Struktur, mit Verknüpfung zu KI-Systemen |
+| **DSFA** | geführte Logik, KI-Bezug, Eskalation |
+| **Datenpannen** | Fristenunterstützung, Arbeitszustände, Eskalation |
+| **Löschprotokoll** | Nachweise und Aufbewahrungserinnerungen |
+| **Awareness und Schulung** | Teilnahmeprotokolle, Schulungsnachweise |
+| **Betroffenenanfragen** | Eingang, Fristen, Identitätsprüfung, Antwortpaket |
+| **AVV und Auftragsverarbeiter** | Übersicht, AVV-Status, SCC-Hinweise, Anbieterbezug |
+| **TOMs** | Maßnahmenregister und Kontrollzuordnung |
+| **Datenschutzhinweise** | Zusammenstellung aus den eigenen Registern |
+| **Übermittlungen** | SCC, BCR, Angemessenheit, TIA-Status, Drittlandbezug |
+| **Behördenpakete** | Fallbearbeitung, Fristen, exportierbare Pakete |
 
-The strongest SimpleAct positioning is not only that AI compliance exists, but that inventory, classification, evidence, governance, export, and privacy workflows are connected in one system without duplicate maintenance.
+## Worauf es dabei ankommt
+
+Der Nutzen liegt nicht in der Länge der Liste, sondern in den **Verbindungen**: dass ein KI-System, das personenbezogene Daten verarbeitet, im Verarbeitungsverzeichnis auftaucht, ohne dass jemand es zweimal einträgt; dass eine DSFA-Pflicht aus den Inventardaten auffällt; dass ein Vorfall beide Meldewege kennt.
+
+Doppelte Pflege ist der häufigste Grund, aus dem Register veralten. Jede Verbindung, die Doppelpflege erspart, ist deshalb nicht Komfort, sondern Haltbarkeit.
+
+## Weiter
+
+[Paketlogik](./package-matrix.md) · [DSGVO-Arbeitsbereich](./gdpr-workspace.md) · [Die fünf Bereiche](../framework/control-domains.md)

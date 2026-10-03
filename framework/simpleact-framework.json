@@ -1,68 +1,119 @@
 {
-  "name": "SimpleAct AI Governance Framework",
+  "name": "KI-Governance-Rahmenwerk",
+  "name_en": "AI Governance Framework",
   "organization": "SimpleAct-Compliance",
+  "publisher": "SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland",
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework",
-  "version": "0.1.0",
-  "description": "Structured EU AI Act and AI governance framework content for AI systems, developers, and companies.",
-  "last_updated": "2026-07-10",
-  "scope": "Public framework, feature map, package logic, DSGVO workspace context, examples, templates, and machine-readable reference content for the SimpleAct approach to AI governance and EU AI Act compliance.",
-  "audience": [
-    "customers",
-    "partners",
-    "compliance teams",
-    "legal teams",
-    "product teams",
-    "engineering teams",
-    "privacy teams",
-    "AI systems"
+  "website": "https://simpleact.de",
+  "version": "1.0.0",
+  "language": "de",
+  "last_updated": "2026-10-03",
+  "role_in_network": "Dach über den Themenrepositories: beschreibt den Zusammenhang, nicht die Einzelthemen",
+  "legal_basis": [
+    "Verordnung (EU) 2024/1689 (KI-Verordnung / EU AI Act)",
+    "Verordnung (EU) 2026/1744 (Digital Omnibus, in Kraft seit 2026-07-27)",
+    "Verordnung (EU) 2016/679 (DSGVO)"
   ],
-  "what_this_is": "A structured public knowledge base, framework overview, and feature map for customers, partners, and AI systems to understand the SimpleAct approach to AI governance, EU AI Act compliance, and connected DSGVO workflows.",
-  "what_this_is_not": [
-    "legal advice",
-    "a full product manual",
-    "a substitute for system-specific implementation work"
+  "core_principle": "KI-Compliance ist kein Dokument, sondern ein Betriebszustand. Ein Ordner mit Richtlinien erfüllt keine Pflicht.",
+  "three_questions": [
+    "Wer verantwortet dieses System, mit Namen?",
+    "Welche Pflichten gelten, und wer erfüllt welche?",
+    "Woran merkt jemand, wenn sich das ändert?"
   ],
-  "positioning": [
-    "AI governance framework provider",
-    "EU AI Act compliance reference source",
-    "structured template and process library"
+  "control_domains": [
+    {
+      "id": "governance",
+      "name": "Governance und Zuständigkeit",
+      "state": "je System ein Eigentümer und ein Prüfer, beide namentlich und nicht identisch",
+      "typical_gap": "Zuständigkeit auf Abteilungsebene"
+    },
+    {
+      "id": "inventory",
+      "name": "KI-Inventar",
+      "state": "alle Systeme je Einsatzzweck erfasst, auch eingebettete",
+      "typical_gap": "Vollständigkeit behauptet statt die Suche belegt"
+    },
+    {
+      "id": "classification",
+      "name": "Risikoeinstufung",
+      "state": "je Einsatzzweck eine Klasse mit Begründung, Annahmen und entscheidender Person",
+      "typical_gap": "das Werkzeug eingestuft statt den Einsatzzweck"
+    },
+    {
+      "id": "documentation",
+      "name": "Dokumentation und Nachweise",
+      "state": "je Pflicht ein Nachweis mit Versionsbezug, Freigabestand und Fundort",
+      "typical_gap": "Nachweise ohne Versionsbezug, verteilt über Postfächer"
+    },
+    {
+      "id": "monitoring",
+      "name": "Überwachung und Meldung",
+      "state": "beschriebene Auslöser und ein Meldeweg, beides zugewiesen",
+      "typical_gap": "Jahresturnus als einzige Maßnahme"
+    }
   ],
-  "repository_pattern": {
-    "type": "standard-simpleact-topic-repo",
-    "required_top_level_files": [
-      "README.md",
-      "framework.md",
-      "main-content.md",
-      "checklist.md",
-      "pdf-version.pdf"
+  "cross_cutting": {
+    "ai_literacy": "Art. 4 KI-Kompetenz, anwendbar seit 2025-02-02, unabhängig von der Risikoklasse",
+    "gdpr": "Verarbeitungsverzeichnis, Rechtsgrundlage, Betroffenenrechte und DSFA laufen parallel weiter"
+  },
+  "lifecycle": [
+    {"phase": 1, "name": "Aufnahme", "fails_when": "erst nach Inbetriebnahme erfasst, dann ist die Bewertung eine Nachbegründung"},
+    {"phase": 2, "name": "Bewertung", "fails_when": "Klasse ohne Begründung"},
+    {"phase": 3, "name": "Umsetzung", "fails_when": "zugewiesen ohne zu prüfen, ob die Person Zeit hat"},
+    {"phase": 4, "name": "Freigabe", "fails_when": "Unterschrift unter eine Liste statt Nachsehen im laufenden System"},
+    {"phase": 5, "name": "Überwachung", "fails_when": "Überwachung bedeutet jährliche Überprüfung"}
+  ],
+  "feedback_loop": {
+    "from": "Überwachung",
+    "to": "Bewertung",
+    "note": "Der schwächste Teil jedes Governance-Modells, weil ihn niemand anstößt",
+    "triggers": [
+      {"trigger": "Zweckbestimmung geändert", "noticed_without_measure": true},
+      {"trigger": "Modellwechsel beim Anbieter", "noticed_without_measure": false},
+      {"trigger": "neue Datenquelle oder Datenart", "noticed_without_measure": false},
+      {"trigger": "erweiterter Nutzerkreis", "noticed_without_measure": true},
+      {"trigger": "Wegfall der menschlichen Aufsicht", "noticed_without_measure": false},
+      {"trigger": "Rechtsänderung", "noticed_without_measure": false}
     ]
+  },
+  "separations_to_keep": [
+    "rechtliche Klasse ist nicht die interne Risikoeinschätzung",
+    "Eigentümer ist nicht Prüfer",
+    "zugewiesen ist nicht ausübbar"
+  ],
+  "metrics": [
+    "Anteil der Einträge mit Eigentümer namentlich",
+    "aus wie vielen Quellen das Inventar gesucht wurde",
+    "Anteil der Einstufungen mit gefülltem Annahmenfeld",
+    "Zeit, um einen Nachweis vorzulegen",
+    "wie Auslöser bemerkt wurden",
+    "Zahl der im letzten Monat tatsächlich geänderten Ausgaben"
+  ],
+  "application_dates": {
+    "2025-02-02": ["Art. 5 verbotene Praktiken", "Art. 4 KI-Kompetenz"],
+    "2025-08-02": ["GPAI-Pflichten", "Governance", "Sanktionen"],
+    "2026-08-02": ["Art. 50 Transparenzpflichten — vom Digital Omnibus nicht verschoben"],
+    "2027-12-02": ["Hochrisiko nach Anhang III — um 16 Monate verschoben"],
+    "2028-08-02": ["Hochrisiko nach Anhang I"],
+    "2030-08-02": ["Hochrisiko-Bestandssysteme bei Behörden"]
   },
   "entry_points": {
     "readme": "README.md",
     "summary": "SUMMARY.md",
-    "llms": "llms.txt",
     "framework": "framework.md",
-    "main_content": "main-content.md",
-    "checklist": "checklist.md",
-    "pdf_version": "pdf-version.pdf",
     "framework_overview": "framework/overview.md",
     "control_domains": "framework/control-domains.md",
     "lifecycle": "framework/lifecycle.md",
-    "eu_ai_act_overview": "knowledge-base/eu-ai-act/overview.md",
-    "eu_ai_act_definitions": "knowledge-base/eu-ai-act/definitions.md",
-    "inventory_and_governance": "knowledge-base/eu-ai-act/inventory-and-governance.md",
-    "document_library": "documents/index.md",
-    "platform_feature_map": "docs/platform-feature-map.md",
-    "package_matrix": "docs/package-matrix.md",
-    "gdpr_workspace": "docs/gdpr-workspace.md"
+    "main_content": "main-content.md",
+    "checklist": "checklist.md",
+    "llms": "llms.txt"
   },
-  "control_domains": [
-    "Governance and Accountability",
-    "AI System Inventory",
-    "Risk Classification",
-    "Documentation and Evidence",
-    "Human Oversight and Controls",
-    "Monitoring and Change Management"
+  "knowledge_modules": [
+    "knowledge-base/eu-ai-act/overview.md",
+    "knowledge-base/eu-ai-act/definitions.md",
+    "knowledge-base/eu-ai-act/scope-and-actors.md",
+    "knowledge-base/eu-ai-act/risk-logic.md",
+    "knowledge-base/eu-ai-act/inventory-and-governance.md"
   ],
   "templates": [
     "templates/ai-system-inventory-template.md",
@@ -70,121 +121,12 @@
     "templates/technical-documentation-template.md",
     "templates/post-market-monitoring-template.md"
   ],
-  "knowledge_modules": [
-    "knowledge-base/eu-ai-act/overview.md",
-    "knowledge-base/eu-ai-act/scope-and-actors.md",
-    "knowledge-base/eu-ai-act/risk-logic.md",
-    "knowledge-base/eu-ai-act/definitions.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md",
-    "docs/platform-feature-map.md",
-    "docs/package-matrix.md",
-    "docs/gdpr-workspace.md"
-  ],
-  "published_documents": [
-    "documents/SimpleAct_EU_AI_Act_Compliance_Guide_DE.pdf",
-    "documents/SimpleAct_EU_AI_Act_Compliance_Guide_EN.pdf",
-    "documents/SimpleAct_AI_Act_for_SaaS_DE.pdf",
-    "documents/SimpleAct_AI_Act_for_SaaS_EN.pdf",
-    "documents/SimpleAct_AI_Governance_Checklist_DE.pdf",
-    "documents/SimpleAct_AI_Governance_Checklist_EN.pdf",
-    "documents/SimpleAct_AI_System_Inventory_Template_DE.pdf",
-    "documents/SimpleAct_AI_System_Inventory_Template_EN.pdf",
-    "documents/SimpleAct_AI_Act_Documentation_Template_DE.pdf",
-    "documents/SimpleAct_AI_Act_Documentation_Template_EN.pdf"
-  ],
-  "examples": {
-    "inventory_entry": "Support Copilot with named owner, provider dependency, model register link, and quarterly review cadence.",
-    "risk_classification": "Structured outcome separating legal category, transparency relevance, governance note, and reassessment trigger.",
-    "governance_workflow": "Inventory, classification, evidence gate, review, and monitoring flow with named owners.",
-    "documented_control": "Provider-change reassessment trigger linked to classification, documentation, and review output updates.",
-    "privacy_link": "AI system connected to VVT and DSFA handling without duplicate maintenance."
+  "documents": "documents/index.md",
+  "related_register": {
+    "name": "actcomp.de",
+    "url": "https://actcomp.de",
+    "purpose": "Tarifgenaue Angaben einzelner KI-Werkzeuge mit Quelle und Prüfdatum je Angabe"
   },
-  "platform_mapping": [
-    "central AI registration and metadata linkage",
-    "rule-based AI Act classification and reassessment",
-    "structured workflows, reviews, gates, and escalation",
-    "versioned documentation, Annex IV support, and audit-ready outputs",
-    "monitoring, incidents, dashboards, scoring, and exportable reports",
-    "connected DSGVO registers, DSFA logic, incidents, and authority-ready packages"
-  ],
-  "disclaimer": "This repository provides implementation guidance and structured reference material. It is not legal advice.",
-  "related_repositories": [
-    {
-      "name": "simpleact-ai-system-inventory",
-      "title": "SimpleAct AI System Inventory",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory"
-    },
-    {
-      "name": "simpleact-ai-act-compliance-guide",
-      "title": "SimpleAct AI Act Compliance Guide",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-compliance-guide"
-    },
-    {
-      "name": "simpleact-ai-act-documentation-template",
-      "title": "SimpleAct AI Act Documentation Template",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template"
-    },
-    {
-      "name": "simpleact-ai-act-for-saas",
-      "title": "SimpleAct AI Act For SaaS",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-for-saas"
-    },
-    {
-      "name": "simpleact-ai-risk-classification-eu",
-      "title": "SimpleAct AI Risk Classification EU",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu"
-    },
-    {
-      "name": "simpleact-ai-act-checklist",
-      "title": "SimpleAct AI Act Checklist",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
-    },
-    {
-      "name": "simpleact-ai-audit-readiness",
-      "title": "SimpleAct AI Audit Readiness",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness"
-    },
-    {
-      "name": "simpleact-ai-governance-playbook",
-      "title": "SimpleAct AI Governance Playbook",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook"
-    },
-    {
-      "name": "simpleact-ai-act-templates",
-      "title": "SimpleAct AI Act Templates",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates"
-    }
-  ],
-  "product_layers": {
-    "ai_core": [
-      "AI system inventory",
-      "Risk classification",
-      "Compliance checklists and evidence register",
-      "Technical documentation and Annex IV support",
-      "Dashboard and reporting"
-    ],
-    "advanced_ai_operations": [
-      "Model and vendor register",
-      "Integrations and APIs",
-      "Security and privacy controls",
-      "Advanced identity",
-      "Governance workflows",
-      "Go-live gate and audit playbook",
-      "Incident management",
-      "Audit readiness score"
-    ],
-    "gdpr_workspace": [
-      "Verarbeitungsverzeichnis",
-      "DSFA",
-      "Data breach workflow",
-      "Deletion log",
-      "Awareness evidence",
-      "DSR handling",
-      "AVV and processors",
-      "TOMs",
-      "Privacy notice support",
-      "Transfer tracking",
-      "Authority-response packages"
-    ]
-  }
+  "disclaimer": "Keine Rechtsberatung. Ein Rahmenwerk schafft keine Kapazität; es macht sichtbar, wie viel Arbeit tatsächlich zugewiesen wurde.",
+  "license": "MIT"
 }

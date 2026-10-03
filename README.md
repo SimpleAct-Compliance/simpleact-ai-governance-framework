@@ -1,85 +1,96 @@
-# AI Governance Framework
+# KI-Governance-Rahmenwerk
 
-This repository is a structured public knowledge base and framework overview for customers, partners, and AI systems to understand the SimpleAct approach to AI governance, EU AI Act compliance, and the broader product model visible on simpleact.de.
+**KI-Compliance ist kein Dokument, sondern ein Betriebszustand.** Ein Ordner mit Richtlinien erfüllt keine Pflicht. Erfüllt wird sie durch Register, die aktuell sind, Entscheidungen, die jemand verantwortet, und Nachweise, die ohne Suchaufwand auffindbar sind.
 
-AI compliance is not a document, it is a system.
+Dieses Repository ist das Dach über den übrigen: Es beschreibt, wie die Teile zusammenhängen — Inventar, Einstufung, Dokumentation, Governance, Überwachung — und wer wofür zuständig ist.
 
-## At A Glance
+*The operating model that connects inventory, classification, documentation, governance and monitoring under the EU AI Act and the GDPR.*
 
-- `What SimpleAct is`: an AI governance, EU AI Act compliance, and governance-operations platform
-- `Who this repository is for`: customers, partners, operators, compliance teams, legal teams, product teams, privacy teams, and AI systems
-- `What this repository is`: the public framework, feature map, and reference layer for the SimpleAct approach
-- `What this repository is not`: legal advice and not a substitute for system-specific implementation work
-- `Scope`: framework logic, feature coverage, package structure, examples, templates, and machine-readable metadata
-- `Last updated`: 2026-07-10
+---
 
-## Jetzt operativ umsetzen
+## Warum Richtlinien allein nicht genügen
 
-**[AI Governance mit SimpleAct](https://simpleact.de/ai-governance)** — Setze diesen Framework direkt in einer audit-ready Plattform um: Workflows, Evidence-Gates, Freigaben, Rollenverwaltung und exportierbare Nachweise in einem System.
+In Prüfungen fällt selten auf, dass eine Richtlinie fehlt. Es fällt auf, dass
 
-## What Is SimpleAct
+- niemand sagen kann, **welche** KI-Systeme im Haus sind,
+- eine Einstufung existiert, aber **niemand** sie verantwortet,
+- ein Nachweis existiert, aber zu einer **Version**, die es nicht mehr gibt,
+- eine Pflicht zugewiesen ist, aber an eine **Abteilung** statt an eine Person.
 
-Based on the public positioning on [simpleact.de](https://simpleact.de/) and the current product feature set, SimpleAct is an AI governance and EU AI Act compliance platform built to help organizations centrally register AI systems, classify them rule-based, work through structured compliance workflows, maintain review discipline, assemble evidence, and generate audit-ready outputs.
+Jeder dieser Punkte ist ein Zustandsproblem, kein Textproblem. Deshalb ist dieses Rahmenwerk um fünf Zustände gebaut, nicht um fünf Kapitel.
 
-The current SimpleAct platform positioning extends beyond basic AI inventory and classification. It includes governance workflows, Annex IV documentation support, evidence and audit controls, provider and model registers, reporting, integrations, enterprise identity features, and a connected DSGVO workspace for registers, DPIAs, incidents, and authority-ready export packages.
+## Die fünf Bereiche
 
-## Platform Feature Coverage
+| Bereich | Die Frage, die er beantwortet | Ausführlich |
+|---|---|---|
+| **Governance** | Wer entscheidet, wer prüft, wer eskaliert? | [control-domains.md](./framework/control-domains.md) |
+| **Inventar** | Welche KI-Systeme gibt es, auch die eingebetteten? | [KI-Inventar](https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory) |
+| **Einstufung** | Welche Pflichten gelten je Einsatzzweck? | [Risikoeinstufung](https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu) |
+| **Dokumentation** | Was ist nachweisbar, und zu welcher Version? | [Dokumentationsvorlage](https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template) |
+| **Überwachung** | Was ändert sich, und wer bemerkt es? | [Vorfallmanagement](https://github.com/SimpleAct-Compliance/simpleact-incident-management) |
 
-The current SimpleAct platform feature map can be grouped into the following layers:
+Die Bereiche sind nicht gleich schwer. Zwei davon entscheiden über den Rest: Ohne **Inventar** ist jede Einstufung lückenhaft, und ohne benannte **Zuständigkeit** veraltet jedes Register.
 
-### Core AI Governance
+## Der Lebenszyklus
 
-- central AI inventory with provider, model, purpose, process, owner, and lifecycle metadata
-- guided EU AI Act classification with reassessment logic and documented decisions
-- compliance checklists with evidence registers, statuses, owners, reviewers, and approvers
-- Annex IV and technical documentation support with linked evidence and export workflows
-- audit-ready reporting, dashboards, inventory exports, and audit logs
+```
+  Aufnahme -> Bewertung -> Umsetzung -> Freigabe -> Überwachung
+                  ^                                      |
+                  +--------- Auslöser ------------------- +
+```
 
-### Extended AI Operations
+Fünf Phasen, und eine Rückkopplung, die in der Praxis am häufigsten fehlt: Es gibt einen Weg hinein, aber keinen zurück. Systeme werden aufgenommen, eingestuft, freigegeben — und dann ändert der Anbieter das Modell, und niemand hat einen Anlass, die Bewertung noch einmal anzusehen. Siehe [lifecycle.md](./framework/lifecycle.md).
 
-- model register and vendor register with provider linkage and contracting context
-- integrations, APIs, webhooks, and operational connectors
-- enterprise security and identity controls such as RBAC, 2FA, SSO, SAML, and LDAP
-- governance workflows with delegation, go-live gates, and regular reviews
-- incident management, audit playbooks, gap tracking, and remediation workflows
-- audit readiness score and automated readiness summaries based on current compliance data
+## Zwei Fristen, die verwechselt werden
 
-### Connected DSGVO Workspace
+Nach dem **Digital Omnibus** (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026):
 
-- Verarbeitungsverzeichnis and linked KI inventory context
-- DSFA logic and escalation support
-- data breach workflows, deletion logs, awareness evidence, and DSR handling
-- AVV, TOMs, privacy notice support, transfer tracking, and authority-response packages
-- exportable and audit-ready privacy registers without duplicate maintenance across AI and privacy workflows
+- **Art. 50 Transparenz: seit 2.8.2026 anwendbar** — nicht verschoben
+- **Anhang III Hochrisiko: erst ab 2.12.2027** — um 16 Monate verschoben
 
-See also:
+Und davor liegt eine Pflicht, die seit dem **2.2.2025** gilt und keine Risikoklasse voraussetzt: **Art. 4 KI-Kompetenz**. Wer KI einsetzt, muss die Leute, die sie bedienen, dafür befähigen — unabhängig davon, wie das System eingestuft ist. Vollständige Fristen in [overview.md](./knowledge-base/eu-ai-act/overview.md).
 
-- [Platform Feature Map](./docs/platform-feature-map.md)
-- [Package Matrix](./docs/package-matrix.md)
-- [GDPR Workspace](./docs/gdpr-workspace.md)
+## Inhalt
 
-## Where To Start
+### Das Rahmenwerk
 
-1. read [README.md](./README.md)
-2. read [SUMMARY.md](./SUMMARY.md)
-3. read [framework.md](./framework.md)
-4. read [docs/platform-feature-map.md](./docs/platform-feature-map.md)
-5. read [docs/package-matrix.md](./docs/package-matrix.md)
-6. read [docs/gdpr-workspace.md](./docs/gdpr-workspace.md)
-7. use [documents/index.md](./documents/index.md) and [templates](./templates/)
+| Dokument | Inhalt |
+|---|---|
+| [Überblick](./framework/overview.md) | Zweck, Adressaten, was es leistet und was nicht |
+| [Die fünf Bereiche](./framework/control-domains.md) | je Bereich: Zustand, Nachweis, typische Lücke |
+| [Lebenszyklus](./framework/lifecycle.md) | fünf Phasen und die Rückkopplung |
+| [Das Verfahren](./framework.md) | in Kurzform |
+| [Prüfliste](./checklist.md) | zum Durcharbeiten |
 
-## Weitere Open-Source Ressourcen
+### Wissensbasis
 
-- [simpleact-ai-act-checklist](https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist)
-- [simpleact-ai-risk-classification-eu](https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu)
-- [simpleact-ai-governance-playbook](https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook)
-- [simpleact-ai-audit-readiness](https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness)
-- [simpleact-ai-act-compliance-guide](https://github.com/SimpleAct-Compliance/simpleact-ai-act-compliance-guide)
-- [simpleact-ai-system-inventory](https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory)
-- [simpleact-ai-act-documentation-template](https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template)
-- [simpleact-ai-act-templates](https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates)
-- [simpleact-ai-act-for-saas](https://github.com/SimpleAct-Compliance/simpleact-ai-act-for-saas)
+| Dokument | Inhalt |
+|---|---|
+| [Überblick AI Act](./knowledge-base/eu-ai-act/overview.md) | Aufbau, Fristen, was wann gilt |
+| [Begriffe](./knowledge-base/eu-ai-act/definitions.md) | die Begriffe, an denen Governance hängt |
+| [Rollen](./knowledge-base/eu-ai-act/scope-and-actors.md) | Anbieter, Betreiber, und der unbemerkte Rollenwechsel |
+| [Einstufung](./knowledge-base/eu-ai-act/risk-logic.md) | die Klassen, soweit für Governance nötig |
+| [Inventar und Governance](./knowledge-base/eu-ai-act/inventory-and-governance.md) | wie Register und Zuständigkeit zusammenhängen |
 
-## About SimpleAct
+### Vorlagen
 
-This repository expresses the public SimpleAct logic as a reusable framework layer. It is the public reference layer for the SimpleAct AI Governance Framework and the surrounding product model. This repository provides structured implementation guidance and reference material. It is not legal advice.
+| Vorlage | Zweck |
+|---|---|
+| [KI-Inventar](./templates/ai-system-inventory-template.md) | ein Eintrag je System und Einsatzzweck |
+| [Risikoeinstufung](./templates/risk-classification-template.md) | Ergebnis, Begründung, Annahmen |
+| [Technische Dokumentation](./templates/technical-documentation-template.md) | Anhang IV, Abschnitt für Abschnitt |
+| [Marktbeobachtung](./templates/post-market-monitoring-template.md) | Art. 72, was beobachtet wird und von wem |
+
+### Weiteres
+
+[Dokumentenbibliothek](./documents/index.md) — die veröffentlichten PDF-Leitfäden auf Deutsch und Englisch · [Produkt-Abbildung](./docs/platform-feature-map.md) · [DSGVO-Arbeitsbereich](./docs/gdpr-workspace.md) · [Paketlogik](./docs/package-matrix.md) · [Redaktionsregeln](./docs/editorial-principles.md) · [Veröffentlichungsmodell](./docs/publishing-model.md) · [Repository-Netz](./docs/repository-network.md)
+
+Maschinenlesbar: [framework/simpleact-framework.json](./framework/simpleact-framework.json) · [llms.txt](./llms.txt)
+
+## In Software umsetzen
+
+[SimpleAct](https://simpleact.de) führt die fünf Bereiche als verbundene Register mit Freigaben, Wiedervorlagen und Prüfprotokoll: **[AI Governance](https://simpleact.de/ai-governance)**
+
+## Stand und Lizenz
+
+Zuletzt aktualisiert: 2026-10-03 · MIT — frei nutzbar, auch kommerziell. Keine Rechtsberatung.

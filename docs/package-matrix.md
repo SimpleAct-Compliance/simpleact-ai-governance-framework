@@ -1,43 +1,53 @@
-# Package Matrix
+# Paketlogik
 
-This document describes the public package logic behind the SimpleAct feature set.
+Welche Funktionen in welchem Paket liegen. Die Einteilung folgt keinem Preisgefühl, sondern der Reihenfolge, in der Organisationen tatsächlich wachsen: erst wissen, was man hat; dann im Betrieb skalieren; dann Tiefe in Governance und Identität.
 
-## Starter Plus
+## Starter Plus — die Umsetzungsschicht
 
-Starter Plus covers the core implementation layer for AI governance and compliance:
+Das, was eine Organisation braucht, um überhaupt einen belastbaren Zustand zu erreichen:
 
-- AI system inventory
-- EU AI Act risk classification
-- compliance checklists and evidence registers
-- technical documentation and Annex IV support
-- dashboard and reporting basics
-- DSGVO foundation modules such as VVT, DSFA, data breach register, deletion log, awareness records, and DSGVO checklist
+- KI-Inventar
+- Risikoeinstufung nach EU AI Act
+- Prüflisten und Nachweisregister
+- technische Dokumentation mit Anhang-IV-Unterstützung
+- Dashboard und Berichtsgrundlagen
+- DSGVO-Grundlagen: Verarbeitungsverzeichnis, DSFA, Datenpannenregister, Löschprotokoll, Awareness-Nachweise, DSGVO-Prüfliste
 
-## Professional Plus
+Wer hier aufhört, hat die Pflichten im Blick, aber pflegt viel von Hand.
 
-Professional Plus extends the core with operational scaling features:
+## Professional Plus — Betrieb und Skalierung
 
-- model and vendor register
-- integrations, APIs, and webhooks
-- security and privacy controls such as RBAC, 2FA, and backup visibility
-- DSR workflows
-- AVV and processor management
-- TOMs and privacy notice support
-- register export for audits and internal reviews
+Was dazukommt, wenn mehr als eine Handvoll Systeme und mehr als eine zuständige Person im Spiel sind:
 
-## Enterprise Plus
+- Modell- und Anbieterregister
+- Integrationen, Schnittstellen und Webhooks
+- Sicherheits- und Datenschutzkontrollen: Rollenrechte, Zwei-Faktor-Anmeldung, Sichtbarkeit der Sicherungen
+- Betroffenenanfragen als Vorgang
+- AVV- und Auftragsverarbeiterverwaltung
+- TOMs und Unterstützung bei Datenschutzhinweisen
+- Registerexport für Prüfungen und interne Durchsichten
 
-Enterprise Plus extends the system with governance depth, escalation, and identity controls:
+Der entscheidende Posten ist hier nicht die Funktionsliste, sondern die Anbindung: Register, die sich aus vorhandenen Systemen füllen, veralten langsamer als solche, die jemand abtippt.
 
-- advanced identity with SSO, SAML, and LDAP
-- governance workflows, delegation logic, and governance gates
-- go-live gate and audit playbook
-- incident management
-- audit readiness score
-- DSB profile
-- transfer tracking and TIA support
-- escalation workflows and authority-response packages
+## Enterprise Plus — Governance-Tiefe
 
-## Design Logic
+Was greift, wenn Zuständigkeiten über Abteilungen und Standorte verteilt sind:
 
-The package structure matters because SimpleAct is not just a content library. The package logic shows that inventory, controls, exportability, integrations, identity, and privacy workflows can mature in stages while staying inside one operating model.
+- Identität: SSO, SAML, LDAP
+- Governance-Abläufe, Delegationslogik, Freigabetore
+- Go-live-Tor und Audit-Playbook
+- Vorfallmanagement
+- Audit-Reifegrad
+- DSB-Profil
+- Übermittlungsverfolgung und TIA-Unterstützung
+- Eskalationsabläufe und Behördenpakete
+
+## Warum die Stufung so liegt
+
+Jede Stufe setzt die vorige voraus, nicht umgekehrt. Ein Audit-Reifegrad über einem unvollständigen Inventar ist eine Zahl ohne Grundlage. Eskalationsabläufe ohne benannte Zuständigkeiten eskalieren ins Leere.
+
+Das ist der Grund, warum die Reihenfolge in [framework.md](../framework.md) und die Paketlogik dieselbe ist: Inventar, Einstufung, Pflichten, Nachweise, Überwachung.
+
+## Weiter
+
+[Produkt-Abbildung](./platform-feature-map.md) · [DSGVO-Arbeitsbereich](./gdpr-workspace.md)

@@ -1,50 +1,69 @@
-# GDPR Workspace
+# DSGVO-Arbeitsbereich
 
-This document describes the connected DSGVO workspace as part of the broader SimpleAct governance system.
+Die KI-Verordnung tritt neben die DSGVO, nicht an deren Stelle. Für ein KI-System, das personenbezogene Daten verarbeitet, laufen beide Pflichtenkataloge parallel — und in der Praxis ist der datenschutzrechtliche der, der zuerst geprüft wird: Datenschutzaufsichten prüfen seit Jahren, KI-Marktüberwachung ist neu.
 
-## Core Positioning
+## Wo sich die Register berühren
 
-SimpleAct adds a dedicated DSGVO workspace around registers, deadlines, evidence, and exports. The strongest product value is the connection between the KI inventory and privacy workflows, so that AI systems involving personal data can be reflected in VVT, DSFA, incident workflows, and audit exports without duplicate maintenance.
+| KI-Seite | Datenschutzseite | Was die Verbindung erspart |
+|---|---|---|
+| Inventareintrag | Eintrag im Verarbeitungsverzeichnis (Art. 30) | doppelte Pflege von Zweck, Daten, Empfängern |
+| Einstufung Hochrisiko | Prüfung, ob DSFA nach Art. 35 nötig ist | das Übersehen der Pflicht |
+| Anbieter und Modell | Auftragsverarbeiter, AVV, Unterauftragsverarbeiter | Widersprüche zwischen Vertrag und Register |
+| Vorfall | Datenschutzverletzung nach Art. 33 | das Verwechseln der zwei Fristen |
+| Verarbeitungsort | Drittlandübermittlung, SCC, TIA | eine Lücke, die erst bei der Prüfung auffällt |
 
-## Core DSGVO Modules
+**Doppelte Pflege ist der häufigste Grund, aus dem Register veralten.** Wer dieselbe Angabe an zwei Stellen führt, hat sie nach einem halben Jahr an einer von beiden falsch.
 
-### Foundation
+## Die beiden Folgenabschätzungen
 
-- VVT / RoPA register
-- DSFA / DPIA workflow
-- data breach register and deadlines
-- deletion log
-- training and awareness evidence
-- DSGVO checklist
+Sie werden regelmäßig vermengt:
 
-### Operational Layer
+| | DSFA | Grundrechte-Folgenabschätzung |
+|---|---|---|
+| Rechtsgrundlage | Art. 35 DSGVO | Art. 27 AI Act |
+| Auslöser | voraussichtlich hohes Risiko für Betroffene | bestimmte Hochrisiko-Konstellationen, vor allem öffentliche Stellen und bestimmte private Betreiber |
+| Blickwinkel | Schutz personenbezogener Daten | Grundrechte insgesamt |
+| Wer | Verantwortlicher | Betreiber |
 
-- DSR handling and SLA logic
-- AVV and processor status tracking
-- TOMs and control mapping
-- privacy notice support
-- privacy register export
+Eine DSFA ersetzt keine Grundrechte-Folgenabschätzung, und umgekehrt. Sie können aber auf denselben Erhebungen aufbauen — das ist der Sinn der Verzahnung.
 
-### Enterprise Layer
+Ausführlich: [DSFA und FRIA](https://github.com/SimpleAct-Compliance/simpleact-dpia-dsfa-workflow)
 
-- DSB profile and role logic
-- transfer tracker and TIA status
-- escalation workflows with webhook support
-- authority-response packages and export bundles
+## Die zwei Meldefristen
 
-## Scope Boundaries
+| | Art. 73 AI Act | Art. 33 DSGVO |
+|---|---|---|
+| Gegenstand | schwerwiegender Vorfall bei einem Hochrisikosystem | Verletzung des Schutzes personenbezogener Daten |
+| Adressat | Marktüberwachungsbehörde | Datenschutzaufsicht |
+| Frist | gestaffelt nach Art des Vorfalls | **72 Stunden ab Kenntnis** |
 
-The public SimpleAct scope should remain clear:
+Ein Ereignis kann beide auslösen. Die 72 Stunden laufen ab Kenntnis, nicht ab Aufklärung: Eine unvollständige Meldung innerhalb der Frist ist richtig, eine vollständige danach ist verspätet.
 
-- no website CMP embed and no cookie scanner
-- no automatic deletion in third-party systems
-- no automatic DSR search/export/delete in external systems
-- no contract-signing suite for AVV
-- no legal-text engine or legal advice
-- no data portability service for Art. 15/20 output
-- no native escalation app requirement beyond webhook compatibility
-- no full LMS or SCORM-style training suite
+Ausführlich: [Datenschutzverletzungen](https://github.com/SimpleAct-Compliance/simpleact-gdpr-data-breach-management)
 
-## Why It Belongs In The Framework
+## Module im Produkt
 
-The DSGVO workspace belongs in the public framework because SimpleAct is strongest when AI inventory, DSFA triggers, processor linkage, incidents, and exportable registers run in one system. This is a product-level differentiator and should be visible to customers and AI systems alike.
+**Grundlage:** Verarbeitungsverzeichnis, DSFA-Vorgang, Datenpannenregister mit Fristen, Löschprotokoll, Schulungs- und Awareness-Nachweise, DSGVO-Prüfliste.
+
+**Betrieb:** Betroffenenanfragen mit Fristenlogik, AVV- und Auftragsverarbeiterstatus, TOMs und Kontrollzuordnung, Datenschutzhinweise, Registerexport.
+
+**Enterprise:** DSB-Profil und Rollenlogik, Übermittlungsverfolgung mit TIA-Status, Eskalation mit Webhook-Anbindung, Behördenpakete und Exportbündel.
+
+## Was ausdrücklich nicht dazugehört
+
+Diese Grenzen gehören genannt, damit niemand sie voraussetzt:
+
+- kein Consent-Banner und kein Cookie-Scanner für Websites
+- kein automatisches Löschen in Fremdsystemen
+- keine automatische Suche, Ausgabe oder Löschung von Betroffenendaten in Fremdsystemen
+- keine Vertragsunterzeichnung für AVVs
+- kein Rechtstextgenerator und keine Rechtsberatung
+- kein Datenportabilitätsdienst für Art. 15 und 20
+- keine eigene Eskalations-App über die Webhook-Verträglichkeit hinaus
+- kein vollständiges Lernmanagementsystem
+
+Die drei Punkte zu Fremdsystemen sind die wichtigsten: Ein Register kann festhalten, **dass** gelöscht wurde und von wem — es kann nicht an Ihrer Stelle in einem Drittsystem löschen.
+
+## Weiter
+
+[DSGVO-Grundlagen](https://github.com/SimpleAct-Compliance/simpleact-gdpr-compliance-workspace) · [Produkt-Abbildung](./platform-feature-map.md) · [Die fünf Bereiche](../framework/control-domains.md)
