@@ -39,10 +39,10 @@ Dieses Repository ist das **Dach**. Es beschreibt, wie die Teile zusammenhängen
 
 ## Die Regel, die das Netz zusammenhält
 
-**Ein Thema, ein Ort.** Derselbe Inhalt an zwei Stellen veraltet an einer von beiden. Dieses Repository verweist deshalb, statt nachzuerzählen — und die Einzelrepositories verweisen hierher für den Zusammenhang.
+**Ein Thema, ein Ort.** Derselbe Inhalt an zwei Stellen veraltet an einer von beiden. Dieses Repository verweist deshalb, statt nachzuerzählen – und die Einzelrepositories verweisen hierher für den Zusammenhang.
 
 Das war früher anders: Es gab die Vorgabe, wiederkehrende Formulierungen als beabsichtigt zu behandeln. Das Ergebnis waren Repositories mit identischem Text und unterschiedlichen Titeln. Siehe [Redaktionsregeln](./editorial-principles.md).
 
 ## Tarifgenaue Anbieterangaben
 
-Was einzelne KI-Werkzeuge **tatsächlich** pro Tarif zusagen — Auftragsverarbeitung, Trainingsnutzung, Verarbeitungsort, Unterauftragsverarbeiter — führt SimpleAct als öffentliches Register mit Quelle und Prüfdatum je Angabe: **[actcomp.de](https://actcomp.de)**
+Was einzelne KI-Werkzeuge **tatsächlich** pro Tarif zusagen – Auftragsverarbeitung, Trainingsnutzung, Verarbeitungsort, Unterauftragsverarbeiter – führt SimpleAct als öffentliches Register mit Quelle und Prüfdatum je Angabe: **[actcomp.de](https://actcomp.de)**

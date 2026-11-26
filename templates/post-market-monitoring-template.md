@@ -8,7 +8,7 @@ Nach **Art. 72** müssen Anbieter von Hochrisikosystemen ein System zur Beobacht
 
 ## 1 Was beobachtet wird
 
-Nicht alles ist beobachtbar. Für jede Zeile gehört eingetragen, **woher** die Zahl kommt — eine Kennzahl ohne Quelle ist eine Schätzung.
+Nicht alles ist beobachtbar. Für jede Zeile gehört eingetragen, **woher** die Zahl kommt – eine Kennzahl ohne Quelle ist eine Schätzung.
 
 | Gegenstand | Quelle | Wert im Zeitraum |
 |---|---|---|
@@ -59,10 +59,10 @@ Die rechte Spalte ist die lehrreichste. Steht dort über Monate nur „Zufall", 
 ## 5 Ergebnis des Zeitraums
 
 - [ ] Keine Abweichung, die eine Neubewertung erfordert
-- [ ] Abweichung festgestellt, Klasse unverändert — Begründung ergänzt
-- [ ] Neubewertung erforderlich — verantwortlich ___, Termin ___
-- [ ] Meldung erfolgt — Datum ___, Behörde ___
+- [ ] Abweichung festgestellt, Klasse unverändert – Begründung ergänzt
+- [ ] Neubewertung erforderlich – verantwortlich ___, Termin ___
+- [ ] Meldung erfolgt – Datum ___, Behörde ___
 
 **Erstellt durch (Person):** ___  **Datum:** ___  **Geprüft durch:** ___
 
-Dieser Bericht ersetzt den vorherigen nicht. Die Reihe der Berichte ist der Nachweis, dass beobachtet wurde — ein einzelner aktueller Bericht ist keiner.
+Dieser Bericht ersetzt den vorherigen nicht. Die Reihe der Berichte ist der Nachweis, dass beobachtet wurde – ein einzelner aktueller Bericht ist keiner.

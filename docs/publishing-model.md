@@ -26,7 +26,7 @@ MIT, auch kommerziell. Beratungen und Softwareanbieter dürfen die Vorlagen übe
 
 ## Was bewusst nicht hier liegt
 
-- Produktdokumentation von SimpleAct — die gehört ins Produkt
+- Produktdokumentation von SimpleAct – die gehört ins Produkt
 - Kundendaten, Beispieldaten mit Personenbezug, interne Zahlen
 - Rechtsberatung zu Einzelfällen
 

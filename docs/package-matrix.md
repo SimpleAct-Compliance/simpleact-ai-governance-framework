@@ -2,7 +2,7 @@
 
 Welche Funktionen in welchem Paket liegen. Die Einteilung folgt keinem Preisgefühl, sondern der Reihenfolge, in der Organisationen tatsächlich wachsen: erst wissen, was man hat; dann im Betrieb skalieren; dann Tiefe in Governance und Identität.
 
-## Starter Plus — die Umsetzungsschicht
+## Starter Plus – die Umsetzungsschicht
 
 Das, was eine Organisation braucht, um überhaupt einen belastbaren Zustand zu erreichen:
 
@@ -15,7 +15,7 @@ Das, was eine Organisation braucht, um überhaupt einen belastbaren Zustand zu e
 
 Wer hier aufhört, hat die Pflichten im Blick, aber pflegt viel von Hand.
 
-## Professional Plus — Betrieb und Skalierung
+## Professional Plus – Betrieb und Skalierung
 
 Was dazukommt, wenn mehr als eine Handvoll Systeme und mehr als eine zuständige Person im Spiel sind:
 
@@ -29,7 +29,7 @@ Was dazukommt, wenn mehr als eine Handvoll Systeme und mehr als eine zuständige
 
 Der entscheidende Posten ist hier nicht die Funktionsliste, sondern die Anbindung: Register, die sich aus vorhandenen Systemen füllen, veralten langsamer als solche, die jemand abtippt.
 
-## Enterprise Plus — Governance-Tiefe
+## Enterprise Plus – Governance-Tiefe
 
 Was greift, wenn Zuständigkeiten über Abteilungen und Standorte verteilt sind:
 

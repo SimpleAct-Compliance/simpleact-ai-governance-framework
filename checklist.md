@@ -38,7 +38,7 @@ Ein Nein ist ein Befund, kein Fehler. Es gehört mit Person und Termin in die Ta
 - [ ] Zu jeder Pflicht existiert ein benannter **Nachweis**
 - [ ] Jeder Nachweis verweist auf eine **Version**, nicht nur auf ein Datum
 - [ ] Nachweise haben einen **Freigabestand**
-- [ ] Ein Nachweis lässt sich in annehmbarer Zeit vorlegen — geprüft, nicht angenommen
+- [ ] Ein Nachweis lässt sich in annehmbarer Zeit vorlegen – geprüft, nicht angenommen
 - [ ] Bei Hochrisiko: technische Dokumentation nach **Anhang IV** begonnen, mit Änderungstabelle
 - [ ] Lücken sind als Lücken benannt, nicht mit Füllsätzen überdeckt
 
@@ -49,7 +49,7 @@ Ein Nein ist ein Befund, kein Fehler. Es gehört mit Person und Termin in die Ta
 - [ ] Der **Änderungsverlauf** der Anbieter geht an eine Stelle, die ihn liest
 - [ ] Es gibt einen beschriebenen Weg, auf dem eine **Fehlfunktion gemeldet** wird
 - [ ] Die zwei Meldefristen sind getrennt verstanden: **Art. 73 AI Act** und **Art. 33 DSGVO (72 h ab Kenntnis)**
-- [ ] Erhoben wird, **wie** Auslöser bemerkt wurden — nicht nur, dass geprüft wurde
+- [ ] Erhoben wird, **wie** Auslöser bemerkt wurden – nicht nur, dass geprüft wurde
 - [ ] Erhoben wird, wie viele Ausgaben tatsächlich geändert wurden
 
 ## KI-Kompetenz (Art. 4)

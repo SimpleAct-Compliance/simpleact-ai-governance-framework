@@ -1,6 +1,6 @@
 # Redaktionsregeln
 
-Diese Regeln sind der Grund, warum die Repositories der Organisation sich nicht wie generierte Textbausteine lesen — und die Liste, an der Beiträge gemessen werden.
+Diese Regeln sind der Grund, warum die Repositories der Organisation sich nicht wie generierte Textbausteine lesen – und die Liste, an der Beiträge gemessen werden.
 
 ## Was jeder Abschnitt leisten muss
 
@@ -8,7 +8,7 @@ Diese Regeln sind der Grund, warum die Repositories der Organisation sich nicht 
 
 **Konkret werden, wo es unangenehm wird.** Die nützlichen Stellen sind die, an denen etwas schiefgeht: der Auslöser, den niemand bemerkt; die Aufsicht, die nur auf dem Papier existiert; das Feld, das immer leer bleibt. Wer nur das Erwartbare beschreibt, hilft nicht.
 
-**Die eigene Grenze benennen.** Wo etwas nicht leistbar ist — weil Kapazität fehlt, weil der Anbieter nicht liefert, weil die Rechtslage offen ist — gehört das hin. Verschwiegene Grenzen fallen beim ersten Versuch auf und entwerten den Rest.
+**Die eigene Grenze benennen.** Wo etwas nicht leistbar ist – weil Kapazität fehlt, weil der Anbieter nicht liefert, weil die Rechtslage offen ist – gehört das hin. Verschwiegene Grenzen fallen beim ersten Versuch auf und entwerten den Rest.
 
 ## Rechtsbezüge
 
@@ -30,13 +30,13 @@ Diese Regeln sind der Grund, warum die Repositories der Organisation sich nicht 
 
 Jedes Repository behandelt **einen** Schritt. Der gleiche Inhalt an zwei Stellen veraltet an einer von beiden. Statt zu wiederholen: verlinken. Das [Repository-Netz](./repository-network.md) zeigt, wer wofür zuständig ist.
 
-Das war früher anders geregelt — es gab eine Vorgabe, wiederkehrende Formulierungen als beabsichtigt zu behandeln. Das Ergebnis waren zehn Repositories mit demselben Text und unterschiedlichen Titeln. Die Regel ist umgekehrt worden.
+Das war früher anders geregelt – es gab eine Vorgabe, wiederkehrende Formulierungen als beabsichtigt zu behandeln. Das Ergebnis waren zehn Repositories mit demselben Text und unterschiedlichen Titeln. Die Regel ist umgekehrt worden.
 
 ## Maschinenlesbarkeit
 
 - Dateinamen beschreibend und stabil halten
 - [`framework/simpleact-framework.json`](../framework/simpleact-framework.json) bei größeren Änderungen mitführen
-- [`llms.txt`](../llms.txt) auf die tatsächlichen Einstiegspunkte ausrichten, mit den Kernaussagen — nicht nur mit einer Dateiliste
+- [`llms.txt`](../llms.txt) auf die tatsächlichen Einstiegspunkte ausrichten, mit den Kernaussagen – nicht nur mit einer Dateiliste
 - Alle Dateien UTF-8
 
 ## Stand

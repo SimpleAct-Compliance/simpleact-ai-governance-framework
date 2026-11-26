@@ -30,7 +30,7 @@ Ein Bogen **je Einsatzzweck**.
 
 Ein Ja bei Schritt 3 beendet die Prüfung: Der Betrieb ist einzustellen.
 
-Ein Ja bei 4c schließt die Ausnahme aus — unabhängig davon, was in 4b steht.
+Ein Ja bei 4c schließt die Ausnahme aus – unabhängig davon, was in 4b steht.
 
 Schritt 5 läuft **unabhängig** vom Ergebnis aus Schritt 4.
 
@@ -43,7 +43,7 @@ Schritt 5 läuft **unabhängig** vom Ergebnis aus Schritt 4.
 | **Interne Risikoeinschätzung** | niedrig / mittel / hoch |
 | Begründung der internen Einschätzung | |
 
-Die beiden Risikofelder bleiben getrennt. Ein System kann rechtlich minimal und betrieblich riskant sein — ein Werkzeug, das Angebotstexte erzeugt, berührt keine Pflicht der Verordnung und kostet bei Halluzinationen Geld.
+Die beiden Risikofelder bleiben getrennt. Ein System kann rechtlich minimal und betrieblich riskant sein – ein Werkzeug, das Angebotstexte erzeugt, berührt keine Pflicht der Verordnung und kostet bei Halluzinationen Geld.
 
 ## Annahmen
 

@@ -2,8 +2,8 @@
 
 Governance ist erst dann vorhanden, wenn drei Fragen für jedes KI-System beantwortbar sind, ohne nachzusehen:
 
-1. **Wer verantwortet es** — mit Namen?
-2. **Welche Pflichten gelten** — und wer erfüllt welche?
+1. **Wer verantwortet es** – mit Namen?
+2. **Welche Pflichten gelten** – und wer erfüllt welche?
 3. **Woran merkt jemand, wenn sich das ändert?**
 
 Alles Weitere in diesem Repository ist Ausarbeitung dieser drei Fragen.
@@ -16,7 +16,7 @@ Es gibt eine richtige Reihenfolge, und sie wird häufig umgekehrt begangen:
   Inventar -> Einstufung -> Pflichten -> Nachweise -> Überwachung
 ```
 
-Wer mit Nachweisen beginnt — weil eine Prüfung ansteht — dokumentiert Systeme, deren Einstufung nicht trägt. Wer mit Richtlinien beginnt, schreibt Regeln für einen Bestand, den er nicht kennt.
+Wer mit Nachweisen beginnt – weil eine Prüfung ansteht – dokumentiert Systeme, deren Einstufung nicht trägt. Wer mit Richtlinien beginnt, schreibt Regeln für einen Bestand, den er nicht kennt.
 
 Der unbequeme Teil ist, dass das Inventar am Anfang steht und am längsten dauert.
 

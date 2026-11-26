@@ -10,7 +10,7 @@ Jeder Bereich hat einen **Zustand**, der gehalten werden muss, einen **Nachweis*
 
 **Nachweis:** Zuständigkeitstabelle mit Namen und Datum; Freigabeprotokolle; Eskalationen mit Ergebnis.
 
-**Typische Lücke:** Zuständigkeit auf Abteilungsebene. „Verantwortlich: IT" ist in einer Prüfung dasselbe wie ein leeres Feld. Die zweite Lücke ist die Prüferrolle, die mit der Eigentümerrolle besetzt ist — dann prüft jemand seine eigene Arbeit, und die Freigabe ist formal.
+**Typische Lücke:** Zuständigkeit auf Abteilungsebene. „Verantwortlich: IT" ist in einer Prüfung dasselbe wie ein leeres Feld. Die zweite Lücke ist die Prüferrolle, die mit der Eigentümerrolle besetzt ist – dann prüft jemand seine eigene Arbeit, und die Freigabe ist formal.
 
 Dazu: [Governance-Playbook](https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook)
 
@@ -20,7 +20,7 @@ Dazu: [Governance-Playbook](https://github.com/SimpleAct-Compliance/simpleact-ai
 
 **Nachweis:** Register mit Stand und Herkunft je Eintrag; Nachweis, aus welchen Quellen gesucht wurde.
 
-**Typische Lücke:** Vollständigkeit wird behauptet, nicht belegt. Wer nicht sagen kann, **wie** gesucht wurde — Beschaffung, Auslagenerstattung, Anmeldedienst, Netzprotokolle, Release-Notes bestehender Software — hat kein Inventar, sondern eine Liste der bekannten Fälle.
+**Typische Lücke:** Vollständigkeit wird behauptet, nicht belegt. Wer nicht sagen kann, **wie** gesucht wurde – Beschaffung, Auslagenerstattung, Anmeldedienst, Netzprotokolle, Release-Notes bestehender Software – hat kein Inventar, sondern eine Liste der bekannten Fälle.
 
 Dazu: [KI-Inventar](https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory) · [Anbieterregister](https://github.com/SimpleAct-Compliance/simpleact-model-vendor-register)
 
@@ -50,7 +50,7 @@ Dazu: [Dokumentationsvorlage](https://github.com/SimpleAct-Compliance/simpleact-
 
 **Nachweis:** Vorfallregister; Protokoll der Auslöserprüfungen, auch der ergebnislosen; Nachweis, dass der Änderungsverlauf des Anbieters gelesen wird.
 
-**Typische Lücke:** Der Jahresturnus als einzige Maßnahme. Die wirksamen Auslöser treten unregelmäßig auf — ein Modellwechsel beim Anbieter kündigt sich nicht zum Jahreswechsel an. Wer nur jährlich prüft, hat im Mittel ein halbes Jahr lang eine Bewertung, die nicht mehr gilt.
+**Typische Lücke:** Der Jahresturnus als einzige Maßnahme. Die wirksamen Auslöser treten unregelmäßig auf – ein Modellwechsel beim Anbieter kündigt sich nicht zum Jahreswechsel an. Wer nur jährlich prüft, hat im Mittel ein halbes Jahr lang eine Bewertung, die nicht mehr gilt.
 
 Dazu: [Vorfallmanagement](https://github.com/SimpleAct-Compliance/simpleact-incident-management)
 
@@ -58,13 +58,13 @@ Dazu: [Vorfallmanagement](https://github.com/SimpleAct-Compliance/simpleact-inci
 
 ## Was quer zu allem liegt
 
-**Art. 4 KI-Kompetenz.** Anwendbar seit 2.2.2025, unabhängig von der Risikoklasse. Verlangt sind **Maßnahmen zur Förderung** der KI-Kompetenz derjenigen, die ein System bedienen oder beaufsichtigen — seit der Neufassung durch den Digital Omnibus (27.7.2026) nicht mehr ein sichergestelltes Kompetenzniveau je Person.
+**Art. 4 KI-Kompetenz.** Anwendbar seit 2.2.2025, unabhängig von der Risikoklasse. Verlangt sind **Maßnahmen zur Förderung** der KI-Kompetenz derjenigen, die ein System bedienen oder beaufsichtigen – seit der Neufassung durch den Digital Omnibus (27.7.2026) nicht mehr ein sichergestelltes Kompetenzniveau je Person.
 
 Rechtlich ist die Pflicht damit schwächer, praktisch bleibt sie die Voraussetzung in allen fünf Bereichen: Eine menschliche Aufsicht, die nicht versteht, was sie prüft, ist keine Aufsicht. Schulung und ihre Dokumentation sind weiterhin der Nachweis, der in einer Prüfung vorgelegt wird.
 
 Dazu: [KI-Kompetenz](https://github.com/SimpleAct-Compliance/elearning)
 
-**Die DSGVO-Seite.** Verarbeitet ein KI-System personenbezogene Daten, laufen Verarbeitungsverzeichnis, Rechtsgrundlage, Betroffenenrechte und gegebenenfalls DSFA parallel. Die Register sollten sich berühren, statt doppelt geführt zu werden — siehe [DSGVO-Arbeitsbereich](../docs/gdpr-workspace.md).
+**Die DSGVO-Seite.** Verarbeitet ein KI-System personenbezogene Daten, laufen Verarbeitungsverzeichnis, Rechtsgrundlage, Betroffenenrechte und gegebenenfalls DSFA parallel. Die Register sollten sich berühren, statt doppelt geführt zu werden – siehe [DSGVO-Arbeitsbereich](../docs/gdpr-workspace.md).
 
 ## Weiter
 

@@ -1,6 +1,6 @@
 # Vorlage: KI-Inventar
 
-Ein Eintrag **je System und Einsatzzweck**. Ein Werkzeug, das in drei Fachbereichen für drei Zwecke läuft, braucht drei Einträge — die Einstufung und die Betroffenen unterscheiden sich.
+Ein Eintrag **je System und Einsatzzweck**. Ein Werkzeug, das in drei Fachbereichen für drei Zwecke läuft, braucht drei Einträge – die Einstufung und die Betroffenen unterscheiden sich.
 
 Leerfelder sind kein Ergebnis. Was nicht bekannt ist, bekommt „nicht bewertet" plus Person und Termin.
 
@@ -65,7 +65,7 @@ Ein Ja in der letzten Zeile ist der Fall, in dem eine Organisation nach Art. 25 
 | Art. 25 geprüft (Namensnennung, wesentliche Änderung, Zweckänderung, Hochrisikonutzung)? | mit Datum |
 | Rechtliche Klasse | verboten / Hochrisiko / Transparenzpflicht / minimal / nicht bewertet |
 | Rechtsgrundlage | Artikel oder Anhang |
-| Interne Risikoeinschätzung | niedrig / mittel / hoch — *getrenntes Feld* |
+| Interne Risikoeinschätzung | niedrig / mittel / hoch – *getrenntes Feld* |
 | Verweis auf den Einstufungsbogen | |
 
 ## Aufsicht und Kompetenz

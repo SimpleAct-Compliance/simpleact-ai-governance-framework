@@ -1,6 +1,6 @@
 # Vorlage: Technische Dokumentation (Anhang IV)
 
-Pflicht für **Anbieter** von Hochrisikosystemen nach Art. 11 in Verbindung mit Anhang IV. Betreiber brauchen sie nicht — es sei denn, sie sind nach Art. 25 zum Anbieter geworden, was häufiger vorkommt als vermutet.
+Pflicht für **Anbieter** von Hochrisikosystemen nach Art. 11 in Verbindung mit Anhang IV. Betreiber brauchen sie nicht – es sei denn, sie sind nach Art. 25 zum Anbieter geworden, was häufiger vorkommt als vermutet.
 
 Die Gliederung folgt Anhang IV. Die ausführliche Fassung mit Hinweisen zu jedem Abschnitt steht in der [Dokumentationsvorlage](https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template).
 
@@ -20,7 +20,7 @@ Die Gliederung folgt Anhang IV. Die ausführliche Fassung mit Hinweisen zu jedem
 ## 2 Entwicklung und Verfahren
 
 - Entwicklungsschritte, Fremdbestandteile, vortrainierte Modelle
-- Entwurfsentscheidungen mit Begründung — auch die verworfenen Alternativen
+- Entwurfsentscheidungen mit Begründung – auch die verworfenen Alternativen
 - Systemarchitektur, Rechenressourcen
 - Datenanforderungen: Herkunft, Umfang, Aufbereitung, Kennzeichnung, Bereinigung
 - menschliche Aufsicht: wie sie technisch ermöglicht wird
@@ -30,13 +30,13 @@ Abschnitt 2 ist der aufwendigste und der Grund, weshalb eine nachträgliche Doku
 
 ## 3 Überwachung, Funktionsweise, Kontrolle
 
-- Genauigkeit, Robustheit, Cybersicherheit — mit Messwerten
+- Genauigkeit, Robustheit, Cybersicherheit – mit Messwerten
 - vorhersehbare unbeabsichtigte Ergebnisse und Risikoquellen
 - Grenzen des Systems: was es nicht leistet
 - Spezifikationen der Eingabedaten
 - Angaben, die Betreiber für die Auslegung der Ausgaben brauchen
 
-Der Abschnitt „Grenzen" wird oft zu knapp gehalten. Er ist der Teil, auf den Betreiber sich verlassen — und der Teil, der in einem Vorfall gelesen wird.
+Der Abschnitt „Grenzen" wird oft zu knapp gehalten. Er ist der Teil, auf den Betreiber sich verlassen – und der Teil, der in einem Vorfall gelesen wird.
 
 ## 4 Risikomanagementsystem
 
@@ -52,7 +52,7 @@ Diese Tabelle ist der praktisch wichtigste Teil der ganzen Dokumentation. Sie be
 
 ## 6 Normen
 
-Angewandte harmonisierte Normen, oder — wo keine angewandt wurden — die Beschreibung der stattdessen getroffenen Lösungen.
+Angewandte harmonisierte Normen, oder – wo keine angewandt wurden – die Beschreibung der stattdessen getroffenen Lösungen.
 
 ## 7 EU-Konformitätserklärung
 
@@ -70,7 +70,7 @@ Verweis auf den Plan nach Art. 72 und die vorliegenden Berichte. Vorlage: [post-
 
 **Lücken werden benannt, nicht gefüllt.** Ein Abschnitt mit „liegt nicht vor, verantwortlich ___, Termin ___" ist in einer Prüfung besser als ein Abschnitt mit Füllsätzen. Füllsätze fallen auf und stellen den Rest in Frage.
 
-**Fremdbestandteile werden benannt.** Wer ein Modell eines Dritten verwendet, dokumentiert, welches, in welcher Version, und welche Angaben der Anbieter dazu liefert — und welche nicht.
+**Fremdbestandteile werden benannt.** Wer ein Modell eines Dritten verwendet, dokumentiert, welches, in welcher Version, und welche Angaben der Anbieter dazu liefert – und welche nicht.
 
 ## Offene Punkte
 

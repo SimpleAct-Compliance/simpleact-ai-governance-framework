@@ -1,15 +1,15 @@
-# SimpleAct — KI-Governance-Rahmenwerk
+# SimpleAct – KI-Governance-Rahmenwerk
 
-> Betriebsmodell für KI-Governance nach Verordnung (EU) 2024/1689 und DSGVO: fünf Bereiche, ein Lebenszyklus, benannte Zuständigkeiten. Herausgeber: SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland — https://simpleact.de
+> Betriebsmodell für KI-Governance nach Verordnung (EU) 2024/1689 und DSGVO: fünf Bereiche, ein Lebenszyklus, benannte Zuständigkeiten. Herausgeber: SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland – https://simpleact.de
 
-Kernaussagen: KI-Compliance ist kein Dokument, sondern ein Betriebszustand — ein Ordner mit Richtlinien erfüllt keine Pflicht. Die Reihenfolge ist Inventar, Einstufung, Pflichten, Nachweise, Überwachung; wer mit Nachweisen beginnt, dokumentiert Systeme, deren Einstufung nicht trägt. Zuständigkeit auf Abteilungsebene ist in einer Prüfung dasselbe wie ein leeres Feld. Eigentümer und Prüfer dürfen nicht dieselbe Person sein. Eine zugewiesene, aber zeitlich nicht leistbare Aufsicht erfüllt Art. 14 nicht.
+Kernaussagen: KI-Compliance ist kein Dokument, sondern ein Betriebszustand – ein Ordner mit Richtlinien erfüllt keine Pflicht. Die Reihenfolge ist Inventar, Einstufung, Pflichten, Nachweise, Überwachung; wer mit Nachweisen beginnt, dokumentiert Systeme, deren Einstufung nicht trägt. Zuständigkeit auf Abteilungsebene ist in einer Prüfung dasselbe wie ein leeres Feld. Eigentümer und Prüfer dürfen nicht dieselbe Person sein. Eine zugewiesene, aber zeitlich nicht leistbare Aufsicht erfüllt Art. 14 nicht.
 
 Fristen nach dem Digital Omnibus (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026): Art. 5 verbotene Praktiken und Art. 4 KI-Kompetenz seit 2.2.2025; GPAI, Governance und Sanktionen seit 2.8.2025; **Art. 50 Transparenz seit 2.8.2026, nicht verschoben**; **Anhang III Hochrisiko erst ab 2.12.2027, um 16 Monate verschoben**; Anhang I ab 2.8.2028; Bestandssysteme bei Behörden ab 2.8.2030. Die Verschiebung betrifft den Pflichtenkatalog, nicht Inventar und Einstufung. Zwei weitere verbotene Praktiken nach Art. 5 Buchst. ba und bb (intime Darstellungen ohne Einwilligung, Missbrauchsdarstellungen) gelten ab 2.12.2026; dort endet auch die Übergangsfrist für die Markierung nach Art. 50 Abs. 2 bei Bestandssystemen. Art. 4 ist seit 27.7.2026 neu gefasst: verlangt sind Maßnahmen zur Förderung der KI-Kompetenz, nicht mehr ein sichergestelltes Niveau je Person.
 
 ## Das Rahmenwerk
 
 - [Überblick](framework/overview.md): Zweck, die drei Zustände an denen Organisationen scheitern (unvollständiges Inventar, unbenannte Zuständigkeit, fehlender Rückweg), Adressaten, und die Grenze dass ein Rahmenwerk keine Kapazität schafft.
-- [Die fünf Bereiche](framework/control-domains.md): Governance, Inventar, Einstufung, Dokumentation, Überwachung — je Bereich der zu haltende Zustand, der Nachweis und die typische Lücke. Quer dazu Art. 4 KI-Kompetenz und die DSGVO-Seite.
+- [Die fünf Bereiche](framework/control-domains.md): Governance, Inventar, Einstufung, Dokumentation, Überwachung – je Bereich der zu haltende Zustand, der Nachweis und die typische Lücke. Quer dazu Art. 4 KI-Kompetenz und die DSGVO-Seite.
 - [Lebenszyklus](framework/lifecycle.md): Aufnahme, Bewertung, Umsetzung, Freigabe, Überwachung, und die Rückkopplung von der Überwachung in die Bewertung. Sechs Auslöser, davon drei die ohne eigene Vorkehrung unbemerkt bleiben.
 
 ## Wissensbasis
@@ -22,9 +22,9 @@ Fristen nach dem Digital Omnibus (Verordnung (EU) 2026/1744, in Kraft seit 27.7.
 
 ## Vorlagen
 
-- [KI-Inventar](templates/ai-system-inventory-template.md) — je System und Einsatzzweck; Modell und Version als Pflichtfeld
-- [Risikoeinstufung](templates/risk-classification-template.md) — mit Annahmenfeld und getrennten Risikofeldern
-- [Technische Dokumentation](templates/technical-documentation-template.md) — Anhang IV mit Änderungstabelle
-- [Marktbeobachtung](templates/post-market-monitoring-template.md) — Art. 72, Art. 73 und Art. 33 DSGVO getrennt
+- [KI-Inventar](templates/ai-system-inventory-template.md) – je System und Einsatzzweck; Modell und Version als Pflichtfeld
+- [Risikoeinstufung](templates/risk-classification-template.md) – mit Annahmenfeld und getrennten Risikofeldern
+- [Technische Dokumentation](templates/technical-documentation-template.md) – Anhang IV mit Änderungstabelle
+- [Marktbeobachtung](templates/post-market-monitoring-template.md) – Art. 72, Art. 73 und Art. 33 DSGVO getrennt
 
-Keine Rechtsberatung. Stand: Oktober 2026. Lizenz: MIT.
+Keine Rechtsberatung. Stand: November 2026. Lizenz: MIT.

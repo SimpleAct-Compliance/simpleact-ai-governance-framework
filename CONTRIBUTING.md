@@ -4,10 +4,10 @@ Dieses Repository beschreibt ein Betriebsmodell, kein Produkt. Es lebt davon, da
 
 ## Besonders willkommen
 
-- **Was in Prüfungen tatsächlich gefragt wurde** — und was niemand sehen wollte
-- **Stellen, an denen das Modell nicht trug** — ein Bereich, der sich nicht zuweisen ließ; eine Kennzahl, die nichts gezeigt hat
-- **Korrekturen an Rechtsbezügen** — mit Fundstelle; Artikel- und Anhangnummern sind hier das Wichtigste
-- **Fristen und Rechtsstände**, wenn sich etwas ändert — mit Datum und Quelle
+- **Was in Prüfungen tatsächlich gefragt wurde** – und was niemand sehen wollte
+- **Stellen, an denen das Modell nicht trug** – ein Bereich, der sich nicht zuweisen ließ; eine Kennzahl, die nichts gezeigt hat
+- **Korrekturen an Rechtsbezügen** – mit Fundstelle; Artikel- und Anhangnummern sind hier das Wichtigste
+- **Fristen und Rechtsstände**, wenn sich etwas ändert – mit Datum und Quelle
 - **Übersetzungen** einzelner Dokumente
 
 ## Weniger hilfreich
@@ -18,7 +18,7 @@ Dieses Repository beschreibt ein Betriebsmodell, kein Produkt. Es lebt davon, da
 
 ## Was hier nicht wiederholt wird
 
-Die Einzelthemen haben eigene Repositories — Inventar, Einstufung, Dokumentation, Audit-Vorbereitung, Vorfälle. Dieses Repository verweist darauf, statt sie nachzuerzählen. Inhalte, die dorthin gehören, bitte dort einreichen; das [Repository-Netz](./docs/repository-network.md) zeigt, wohin.
+Die Einzelthemen haben eigene Repositories – Inventar, Einstufung, Dokumentation, Audit-Vorbereitung, Vorfälle. Dieses Repository verweist darauf, statt sie nachzuerzählen. Inhalte, die dorthin gehören, bitte dort einreichen; das [Repository-Netz](./docs/repository-network.md) zeigt, wohin.
 
 ## Vorgehen
 
@@ -32,4 +32,4 @@ Beiträge stehen unter der MIT-Lizenz dieses Repositories. Inhalte hier sind kei
 
 ## Kodierung
 
-Alle Dateien sind UTF-8. Das klingt selbstverständlich, war es in diesem Repository aber eine Weile nicht — deutsche Umlaute erschienen auf GitHub als Ersatzzeichen. Wer unter Windows arbeitet, prüft das vor dem Commit.
+Alle Dateien sind UTF-8. Das klingt selbstverständlich, war es in diesem Repository aber eine Weile nicht – deutsche Umlaute erschienen auf GitHub als Ersatzzeichen. Wer unter Windows arbeitet, prüft das vor dem Commit.

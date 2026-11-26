@@ -2,7 +2,7 @@
 
 **KI-Compliance ist kein Dokument, sondern ein Betriebszustand.** Ein Ordner mit Richtlinien erfüllt keine Pflicht. Erfüllt wird sie durch Register, die aktuell sind, Entscheidungen, die jemand verantwortet, und Nachweise, die ohne Suchaufwand auffindbar sind.
 
-Dieses Repository ist das Dach über den übrigen: Es beschreibt, wie die Teile zusammenhängen — Inventar, Einstufung, Dokumentation, Governance, Überwachung — und wer wofür zuständig ist.
+Dieses Repository ist das Dach über den übrigen: Es beschreibt, wie die Teile zusammenhängen – Inventar, Einstufung, Dokumentation, Governance, Überwachung – und wer wofür zuständig ist.
 
 *The operating model that connects inventory, classification, documentation, governance and monitoring under the EU AI Act and the GDPR.*
 
@@ -39,16 +39,16 @@ Die Bereiche sind nicht gleich schwer. Zwei davon entscheiden über den Rest: Oh
                   +--------- Auslöser ------------------- +
 ```
 
-Fünf Phasen, und eine Rückkopplung, die in der Praxis am häufigsten fehlt: Es gibt einen Weg hinein, aber keinen zurück. Systeme werden aufgenommen, eingestuft, freigegeben — und dann ändert der Anbieter das Modell, und niemand hat einen Anlass, die Bewertung noch einmal anzusehen. Siehe [lifecycle.md](./framework/lifecycle.md).
+Fünf Phasen, und eine Rückkopplung, die in der Praxis am häufigsten fehlt: Es gibt einen Weg hinein, aber keinen zurück. Systeme werden aufgenommen, eingestuft, freigegeben – und dann ändert der Anbieter das Modell, und niemand hat einen Anlass, die Bewertung noch einmal anzusehen. Siehe [lifecycle.md](./framework/lifecycle.md).
 
 ## Zwei Fristen, die verwechselt werden
 
 Nach dem **Digital Omnibus** (Verordnung (EU) 2026/1744, in Kraft seit 27.7.2026):
 
-- **Art. 50 Transparenz: seit 2.8.2026 anwendbar** — nicht verschoben
-- **Anhang III Hochrisiko: erst ab 2.12.2027** — um 16 Monate verschoben
+- **Art. 50 Transparenz: seit 2.8.2026 anwendbar** – nicht verschoben
+- **Anhang III Hochrisiko: erst ab 2.12.2027** – um 16 Monate verschoben
 
-Und davor liegt eine Pflicht, die seit dem **2.2.2025** gilt und keine Risikoklasse voraussetzt: **Art. 4 KI-Kompetenz**. Anbieter und Betreiber müssen **Maßnahmen ergreifen, um die KI-Kompetenz** der Leute zu fördern, die ihre Systeme bedienen — unabhängig davon, wie das System eingestuft ist. Der Digital Omnibus hat die Vorschrift zum 27.7.2026 neu gefasst und damit abgeschwächt: Ein bestimmtes Niveau je Person muss nicht mehr sichergestellt werden. Vollständige Fristen in [overview.md](./knowledge-base/eu-ai-act/overview.md).
+Und davor liegt eine Pflicht, die seit dem **2.2.2025** gilt und keine Risikoklasse voraussetzt: **Art. 4 KI-Kompetenz**. Anbieter und Betreiber müssen **Maßnahmen ergreifen, um die KI-Kompetenz** der Leute zu fördern, die ihre Systeme bedienen – unabhängig davon, wie das System eingestuft ist. Der Digital Omnibus hat die Vorschrift zum 27.7.2026 neu gefasst und damit abgeschwächt: Ein bestimmtes Niveau je Person muss nicht mehr sichergestellt werden. Vollständige Fristen in [overview.md](./knowledge-base/eu-ai-act/overview.md).
 
 ## Inhalt
 
@@ -83,7 +83,7 @@ Und davor liegt eine Pflicht, die seit dem **2.2.2025** gilt und keine Risikokla
 
 ### Weiteres
 
-[Dokumentenbibliothek](./documents/index.md) — die veröffentlichten PDF-Leitfäden auf Deutsch und Englisch · [Produkt-Abbildung](./docs/platform-feature-map.md) · [DSGVO-Arbeitsbereich](./docs/gdpr-workspace.md) · [Paketlogik](./docs/package-matrix.md) · [Redaktionsregeln](./docs/editorial-principles.md) · [Veröffentlichungsmodell](./docs/publishing-model.md) · [Repository-Netz](./docs/repository-network.md)
+[Dokumentenbibliothek](./documents/index.md) – die veröffentlichten PDF-Leitfäden auf Deutsch und Englisch · [Produkt-Abbildung](./docs/platform-feature-map.md) · [DSGVO-Arbeitsbereich](./docs/gdpr-workspace.md) · [Paketlogik](./docs/package-matrix.md) · [Redaktionsregeln](./docs/editorial-principles.md) · [Veröffentlichungsmodell](./docs/publishing-model.md) · [Repository-Netz](./docs/repository-network.md)
 
 Maschinenlesbar: [framework/simpleact-framework.json](./framework/simpleact-framework.json) · [llms.txt](./llms.txt)
 
@@ -93,4 +93,4 @@ Maschinenlesbar: [framework/simpleact-framework.json](./framework/simpleact-fram
 
 ## Stand und Lizenz
 
-Zuletzt aktualisiert: 2026-10-03 · MIT — frei nutzbar, auch kommerziell. Keine Rechtsberatung.
+Zuletzt aktualisiert: 2026-11-26 · MIT – frei nutzbar, auch kommerziell. Keine Rechtsberatung.

@@ -1,6 +1,6 @@
 # DSGVO-Arbeitsbereich
 
-Die KI-Verordnung tritt neben die DSGVO, nicht an deren Stelle. Für ein KI-System, das personenbezogene Daten verarbeitet, laufen beide Pflichtenkataloge parallel — und in der Praxis ist der datenschutzrechtliche der, der zuerst geprüft wird: Datenschutzaufsichten prüfen seit Jahren, KI-Marktüberwachung ist neu.
+Die KI-Verordnung tritt neben die DSGVO, nicht an deren Stelle. Für ein KI-System, das personenbezogene Daten verarbeitet, laufen beide Pflichtenkataloge parallel – und in der Praxis ist der datenschutzrechtliche der, der zuerst geprüft wird: Datenschutzaufsichten prüfen seit Jahren, KI-Marktüberwachung ist neu.
 
 ## Wo sich die Register berühren
 
@@ -25,7 +25,7 @@ Sie werden regelmäßig vermengt:
 | Blickwinkel | Schutz personenbezogener Daten | Grundrechte insgesamt |
 | Wer | Verantwortlicher | Betreiber |
 
-Eine DSFA ersetzt keine Grundrechte-Folgenabschätzung, und umgekehrt. Sie können aber auf denselben Erhebungen aufbauen — das ist der Sinn der Verzahnung.
+Eine DSFA ersetzt keine Grundrechte-Folgenabschätzung, und umgekehrt. Sie können aber auf denselben Erhebungen aufbauen – das ist der Sinn der Verzahnung.
 
 Ausführlich: [DSFA und FRIA](https://github.com/SimpleAct-Compliance/simpleact-dpia-dsfa-workflow)
 
@@ -62,7 +62,7 @@ Diese Grenzen gehören genannt, damit niemand sie voraussetzt:
 - keine eigene Eskalations-App über die Webhook-Verträglichkeit hinaus
 - kein vollständiges Lernmanagementsystem
 
-Die drei Punkte zu Fremdsystemen sind die wichtigsten: Ein Register kann festhalten, **dass** gelöscht wurde und von wem — es kann nicht an Ihrer Stelle in einem Drittsystem löschen.
+Die drei Punkte zu Fremdsystemen sind die wichtigsten: Ein Register kann festhalten, **dass** gelöscht wurde und von wem – es kann nicht an Ihrer Stelle in einem Drittsystem löschen.
 
 ## Weiter
 

@@ -4,7 +4,7 @@ Register veralten nicht, weil sie schlecht entworfen sind, sondern weil niemand 
 
 ## Warum das Inventar die Voraussetzung ist
 
-Alles andere baut darauf auf. Eine Einstufung kann nur bewerten, was bekannt ist; ein Nachweis kann nur belegen, was eingestuft wurde. Und das Inventar ist gleichzeitig der Teil, der am längsten dauert — nicht wegen der Felder, sondern wegen der Suche.
+Alles andere baut darauf auf. Eine Einstufung kann nur bewerten, was bekannt ist; ein Nachweis kann nur belegen, was eingestuft wurde. Und das Inventar ist gleichzeitig der Teil, der am längsten dauert – nicht wegen der Felder, sondern wegen der Suche.
 
 Fünf Quellen, die zusammen ein belastbares Bild geben:
 
@@ -16,7 +16,7 @@ Fünf Quellen, die zusammen ein belastbares Bild geben:
 | Netzprotokolle, aggregiert | Dienste ohne Vertrag und ohne Anmeldung |
 | Release-Notes bestehender Software | nachträglich ergänzte KI-Funktionen |
 
-Die letzte Zeile ist der häufigste Fall und der unangenehmste: Ein CRM bekommt eine Zusammenfassungsfunktion, ein Bewerbungstool eine Vorsortierung. Es gibt kein Projekt, keine Beschaffung, keinen Antrag — und trotzdem verarbeitet ab diesem Release ein KI-System personenbezogene Daten.
+Die letzte Zeile ist der häufigste Fall und der unangenehmste: Ein CRM bekommt eine Zusammenfassungsfunktion, ein Bewerbungstool eine Vorsortierung. Es gibt kein Projekt, keine Beschaffung, keinen Antrag – und trotzdem verarbeitet ab diesem Release ein KI-System personenbezogene Daten.
 
 **Was in einer Prüfung zählt, ist nicht die Behauptung der Vollständigkeit, sondern der Nachweis der Suche.** Festhalten: welche Quellen, wann, mit welchem Ergebnis.
 
@@ -43,13 +43,13 @@ Ein ausdrücklich offener Punkt mit Person und Termin ist ein **gültiges Ergebn
 Ein Register, das nur auf sich selbst verweist, erzeugt Doppelarbeit. Jeder Eintrag braucht Verweise auf:
 
 - **Verarbeitungsverzeichnis** nach Art. 30 DSGVO, sofern personenbezogene Daten
-- **Folgenabschätzungen** — DSFA nach Art. 35 DSGVO, und bei Hochrisiko in bestimmten Konstellationen die Grundrechte-Folgenabschätzung nach Art. 27 AI Act
-- **Anbieterregister** — welches Modell, welche Version, welche Zusagen
-- **Vorfallverfahren** — wohin eine Fehlfunktion gemeldet wird
-- **Schulungsstand** — wer darf bedienen und beaufsichtigen (Art. 4)
-- **Nachweisregister** — welche Belege zu diesem Eintrag gehören
+- **Folgenabschätzungen** – DSFA nach Art. 35 DSGVO, und bei Hochrisiko in bestimmten Konstellationen die Grundrechte-Folgenabschätzung nach Art. 27 AI Act
+- **Anbieterregister** – welches Modell, welche Version, welche Zusagen
+- **Vorfallverfahren** – wohin eine Fehlfunktion gemeldet wird
+- **Schulungsstand** – wer darf bedienen und beaufsichtigen (Art. 4)
+- **Nachweisregister** – welche Belege zu diesem Eintrag gehören
 
-Fehlt eine Verbindung, fällt das nicht im Alltag auf, sondern in der Prüfung — und dann als Lücke in der Governance, nicht als vergessenes Feld.
+Fehlt eine Verbindung, fällt das nicht im Alltag auf, sondern in der Prüfung – und dann als Lücke in der Governance, nicht als vergessenes Feld.
 
 ## Woran man sieht, dass es funktioniert
 

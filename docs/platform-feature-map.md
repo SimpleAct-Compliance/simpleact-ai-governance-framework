@@ -1,6 +1,6 @@
 # Produkt-Abbildung
 
-Welche Funktion von SimpleAct welchen Teil des Rahmenwerks bedient. Gedacht für die Frage „wo im Produkt mache ich das" — und für die umgekehrte, „welcher Pflicht dient diese Funktion".
+Welche Funktion von SimpleAct welchen Teil des Rahmenwerks bedient. Gedacht für die Frage „wo im Produkt mache ich das" – und für die umgekehrte, „welcher Pflicht dient diese Funktion".
 
 ## KI-Governance und AI-Act-Kern
 
@@ -25,7 +25,7 @@ Welche Funktion von SimpleAct welchen Teil des Rahmenwerks bedient. Gedacht für
 | **Vorfallmanagement** | Vorfallregister, Statusfolge, Auslöser für Neubewertung, Richtlinienbezug, Nachvollziehbarkeit | Überwachung |
 | **Audit-Reifegrad** | Bewertung aus Inventar, Risiko, Dokumentation, Kontrollen, Governance und Vollständigkeit | alle |
 
-Zum **Audit-Reifegrad** eine Einschränkung, die dazugehört: Eine Zahl, die aus Vollständigkeitssignalen berechnet wird, misst die Vollständigkeit der Erfassung — nicht die Richtigkeit der Einstufungen. Sie ist ein Fortschrittsmaß, kein Prüfungsergebnis.
+Zum **Audit-Reifegrad** eine Einschränkung, die dazugehört: Eine Zahl, die aus Vollständigkeitssignalen berechnet wird, misst die Vollständigkeit der Erfassung – nicht die Richtigkeit der Einstufungen. Sie ist ein Fortschrittsmaß, kein Prüfungsergebnis.
 
 ## Verbundener DSGVO-Arbeitsbereich
 

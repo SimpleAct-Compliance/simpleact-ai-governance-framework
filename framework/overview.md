@@ -2,7 +2,7 @@
 
 ## Was es ist
 
-Ein Betriebsmodell für KI-Governance: die Beschreibung eines Zustands, den eine Organisation halten muss, damit die Pflichten aus der KI-Verordnung und der DSGVO im Alltag erfüllt sind — und nicht nur in einem Ordner behauptet werden.
+Ein Betriebsmodell für KI-Governance: die Beschreibung eines Zustands, den eine Organisation halten muss, damit die Pflichten aus der KI-Verordnung und der DSGVO im Alltag erfüllt sind – und nicht nur in einem Ordner behauptet werden.
 
 Es ersetzt keine Richtlinie. Es beantwortet die Frage, die nach der Richtlinie kommt: **Wer hält was aktuell, und woran merkt es jemand, wenn das aufhört?**
 
@@ -14,7 +14,7 @@ Die meisten Organisationen scheitern nicht an fehlendem Wissen, sondern an drei 
 
 **Zweitens: Die Zuständigkeit ist unbenannt.** Eine Einstufung, die „Compliance" verantwortet, verantwortet niemand. In einer Prüfung wird nach einer Person gefragt.
 
-**Drittens: Es gibt keinen Rückweg.** Systeme werden aufgenommen, bewertet, freigegeben. Was danach passiert — Modellwechsel, Zweckänderung, neuer Nutzerkreis — löst keinen Vorgang aus, weil niemand dafür zuständig ist, es zu bemerken.
+**Drittens: Es gibt keinen Rückweg.** Systeme werden aufgenommen, bewertet, freigegeben. Was danach passiert – Modellwechsel, Zweckänderung, neuer Nutzerkreis – löst keinen Vorgang aus, weil niemand dafür zuständig ist, es zu bemerken.
 
 ## Für wen
 
@@ -35,9 +35,9 @@ Die meisten Organisationen scheitern nicht an fehlendem Wissen, sondern an drei 
 
 ## Was es nicht leistet
 
-Keine Rechtsberatung und keine Einzelfallbewertung. Es sagt auch nicht, ob ein konkretes System hochriskant ist — dafür gibt es die [Risikoeinstufung](https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu). Und es ersetzt keine Konformitätsbewertung, wo eine verlangt wird.
+Keine Rechtsberatung und keine Einzelfallbewertung. Es sagt auch nicht, ob ein konkretes System hochriskant ist – dafür gibt es die [Risikoeinstufung](https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu). Und es ersetzt keine Konformitätsbewertung, wo eine verlangt wird.
 
-Eine weitere Grenze, die ehrlicher gesagt gehört: Ein Rahmenwerk schafft keine Kapazität. Wenn eine Person nebenbei fünf Register pflegen soll, wird kein Modell daran etwas ändern. Die Zuständigkeitstabelle macht sichtbar, wie viel Arbeit tatsächlich zugewiesen wurde — manchmal ist das ihr größter Nutzen.
+Eine weitere Grenze, die ehrlicher gesagt gehört: Ein Rahmenwerk schafft keine Kapazität. Wenn eine Person nebenbei fünf Register pflegen soll, wird kein Modell daran etwas ändern. Die Zuständigkeitstabelle macht sichtbar, wie viel Arbeit tatsächlich zugewiesen wurde – manchmal ist das ihr größter Nutzen.
 
 ## Weiter
 
